@@ -1,0 +1,37 @@
+<imageIndex>
+  <image>
+    <originalFileName>_dsc0386.jpg</originalFileName>
+    <size>118451</size>
+    <dateLastModified>2010-07-15 11:42:22</dateLastModified>
+    <cachedImage>
+      <fileName>1bj7kxvp.jpeg</fileName>
+      <dateCreated>2012-01-18 11:59:06</dateCreated>
+      <dateLastAccessed>2012-03-07 10:40:47</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>80</compression>
+      <width>523</width>
+      <height>347</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>True</constrain>
+      <pad>False</pad>
+    </cachedImage>
+    <cachedImage>
+      <fileName>wcftdcpm.jpeg</fileName>
+      <dateCreated>2012-01-18 03:14:36</dateCreated>
+      <dateLastAccessed>2012-02-24 11:17:00</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>80</compression>
+      <width>1000</width>
+      <height>664</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+    </cachedImage>
+  </image>
+</imageIndex>

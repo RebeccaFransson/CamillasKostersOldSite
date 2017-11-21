@@ -1,0 +1,37 @@
+<imageIndex>
+  <image>
+    <originalFileName>medryttare.jpg</originalFileName>
+    <size>63660</size>
+    <dateLastModified>2010-05-19 07:29:03</dateLastModified>
+    <cachedImage>
+      <fileName>-_kn5mvj.jpeg</fileName>
+      <dateCreated>2010-05-19 09:50:01</dateCreated>
+      <dateLastAccessed>2010-05-27 01:13:01</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>80</compression>
+      <width>622</width>
+      <height>347</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>True</constrain>
+      <pad>False</pad>
+    </cachedImage>
+    <cachedImage>
+      <fileName>ajngvqxf.jpeg</fileName>
+      <dateCreated>2010-05-22 08:06:33</dateCreated>
+      <dateLastAccessed>2010-05-22 08:06:33</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>80</compression>
+      <width>649</width>
+      <height>362</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+    </cachedImage>
+  </image>
+</imageIndex>

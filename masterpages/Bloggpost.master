@@ -1,0 +1,22 @@
+﻿<%@ Master Language="C#" MasterPageFile="/masterpages/CKHorselifeRoot.master" AutoEventWireup="true" %>
+
+
+
+<asp:Content ContentPlaceHolderID="leftColumnContent" runat="server">
+<div class="clear left four noMargin topMargin rightPadding">
+<h2><umbraco:Item ID="Item1" field="headline" runat="server"></umbraco:Item></h2>
+<div id="subNavigation"><umbraco:Macro ID="Macro1" startingLevel="2" recurse="1" selectBranches="1" maxMenuDepth="0" ulBaseClass="vertical" branchClass="branch" selectedClass="selected" Alias="[COG]Navigation" runat="server"></umbraco:Macro></div>
+</div>
+
+</asp:Content>
+
+
+<asp:Content ContentPlaceHolderID="MainContent" runat="server">
+<div class="pageBody left topMargin six">
+<span class="date">
+<umbraco:Item field="createDate" formatAsDate="true" runat="server"></umbraco:Item></span>
+<h3 class="fontXLarge blue"><umbraco:Item field="postHeadline" runat="server"></umbraco:Item></h3>
+<umbraco:Item field="postContent" runat="server"></umbraco:Item>
+</div>
+
+</asp:Content>

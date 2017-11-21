@@ -1,0 +1,37 @@
+<imageIndex>
+  <image>
+    <originalFileName>dante.jpg</originalFileName>
+    <size>86425</size>
+    <dateLastModified>2010-05-19 07:26:47</dateLastModified>
+    <cachedImage>
+      <fileName>l5duywzk.jpeg</fileName>
+      <dateCreated>2010-05-19 10:02:34</dateCreated>
+      <dateLastAccessed>2012-01-19 01:22:26</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>80</compression>
+      <width>150</width>
+      <height>200</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>True</constrain>
+      <pad>False</pad>
+    </cachedImage>
+    <cachedImage>
+      <fileName>s9a6qsn5.jpeg</fileName>
+      <dateCreated>2010-05-20 09:26:12</dateCreated>
+      <dateLastAccessed>2012-01-18 04:37:32</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>80</compression>
+      <width>500</width>
+      <height>667</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+    </cachedImage>
+  </image>
+</imageIndex>

@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" MasterPageFile="/masterpages/CKHorselifeRoot.master" AutoEventWireup="true" %>
+
+
+<asp:Content ContentPlaceHolderID="headerContent" runat="server">
+<div class="left noMargin headerImage"><umbraco:Macro ID="Macro1" Alias="HeaderImage" runat="server"></umbraco:Macro></div>
+<div class="three bottomMargin ingressBox noMargin left">
+<umbraco:Item ID="Item1" field="ingress" runat="server"></umbraco:Item></div>
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="leftColumnContent" runat="server">
+<div class="clear left four noMargin topMargin rightPadding">
+<h2><umbraco:Item ID="Item2" field="headline" runat="server"></umbraco:Item></h2>
+
+
+<div id="subNavigation">
+<umbraco:Macro ID="nav" startingLevel="2" recurse="1" selectBranches="1" maxMenuDepth="999" ulBaseClass="vertical" branchClass="ancestorSelected" selectedClass="selected" Alias="[COG]Navigation" runat="server"></umbraco:Macro></div>
+</div>
+</asp:Content>
+
+
+<asp:Content ContentPlaceHolderID="MainContent" runat="server">
+<div class="pageBody left topMargin six">
+<umbraco:Item ID="Item3" field="pageBody" runat="server"></umbraco:Item>
+
+
+<h2 class="bottomMargin"><umbraco:Item field="horseName" runat="server"></umbraco:Item></h2>
+
+<ul class="right three">
+<li>Född: <umbraco:Item field="horseBorn" runat="server"></umbraco:Item></li>
+
+<li>Ras: <umbraco:Item field="horseBreed" runat="server"></umbraco:Item></li>
+
+<li>Härstamning: <umbraco:Item field="pedigree" runat="server"></umbraco:Item></li>
+
+<li>Kön: <umbraco:Item field="horseSex" runat="server"></umbraco:Item></li>
+
+<li>Färg: <umbraco:Item field="horseColor" runat="server"></umbraco:Item></li>
+
+<li>Mankhöjd: <umbraco:Item field="horseHeight" runat="server"></umbraco:Item></li>
+
+
+<umbraco:Item field="horsePrice" insertTextBefore="&lt;li&gt; Pris:&nbsp;" insertTextAfter="&lt;/li&gt;" runat="server"></umbraco:Item>
+
+</ul>
+<p><umbraco:Item field="horseDesc" runat="server"></umbraco:Item></p>
+
+
+<p class="clear">
+
+<umbraco:Macro Alias="YouTubeMovieLink" runat="server"></umbraco:Macro>
+
+</p>
+</div>
+</asp:Content>

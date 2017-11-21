@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" MasterPageFile="/masterpages/CKHorselifeRoot.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderID="MainContent" runat="server">
+
+
+ <div id="slideshow" class="left noMargin">
+ <umbraco:Macro Alias="ImageSliderRepeater" runat="server"></umbraco:Macro>
+ </div>
+
+
+<ul class="mainEntranceStart">
+<li><a href="/medryttare.aspx" class="roundedCornersRight"><span> <umbraco:Item ID="Item1" field="headlineEntrance1" runat="server"></umbraco:Item></span>
+<umbraco:Item ID="Item2" field="contentEntrance1" runat="server"></umbraco:Item>
+</a>
+</li>
+<li><a href="/lektioner.aspx"><span><umbraco:Item ID="Item5" field="headlineEntrance2" runat="server"></umbraco:Item></span>
+<umbraco:Item ID="Item4" field="contentEntrance2" runat="server"></umbraco:Item>
+</a></li>
+<li class="last"><a href="/boxplats.aspx"><span><umbraco:Item ID="Item6" field="headlineEntrance3" runat="server"></umbraco:Item></span>
+<umbraco:Item ID="Item3" field="contentEntrance3" runat="server"></umbraco:Item>
+</a></li>
+
+</ul>
+ 
+<div class="topPadding seven left noMargin">
+
+<umbraco:Macro source="1128" Alias="EventRepeaterStartpage" runat="server"></umbraco:Macro>
+
+<umbraco:Macro source="1172" Alias="BlogStartpage" runat="server"></umbraco:Macro>
+
+
+
+</div>
+
+<div class="topPadding noMargin right horsesForSaleStart">
+
+<h3>Hästar till salu</h3>
+
+<umbraco:Macro source="1155" Alias="HorsesForSaleStart" runat="server"></umbraco:Macro>
+</div>
+
+</asp:Content>

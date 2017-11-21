@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<umbPackage>
+  <files>
+    <file>
+      <guid>volandzz.MediaPickerWithPreview.dll</guid>
+      <orgPath>/bin</orgPath>
+      <orgName>volandzz.MediaPickerWithPreview.dll</orgName>
+    </file>
+    <file>
+      <guid>MediaPickerPreview.aspx</guid>
+      <orgPath>/umbraco</orgPath>
+      <orgName>MediaPickerPreview.aspx</orgName>
+    </file>
+  </files>
+  <info>
+    <package>
+      <name>Media Picker with Preview</name>
+      <version>1.01</version>
+      <license url="http://www.opensource.org/licenses/mit-license.php">MIT license</license>
+      <url>http://volandzz.blogspot.com/2009/07/umbraco-package-media-picker-with.html</url>
+      <requirements>
+        <major>3</major>
+        <minor>0</minor>
+        <patch>0</patch>
+      </requirements>
+    </package>
+    <author>
+      <name>volandzz</name>
+      <website>volandzz.blogspot.com</website>
+    </author>
+    <readme><![CDATA[Umbraco datatype that extends standard Media Picker with image preview.]]></readme>
+  </info>
+  <DocumentTypes />
+  <Templates />
+  <Stylesheets />
+  <Macros />
+  <DictionaryItems />
+  <Languages />
+  <DataTypes>
+    <DataType Name="Media Picker with Preview" Id="882dac19-8e5a-44c7-a898-9141904e5ed8" Definition="a8370b9c-79bf-46a8-8f2a-4ec212d0cb15">
+      <PreValues>
+        <PreValue Id="19" Value="500" />
+        <PreValue Id="20" Value="200" />
+        <PreValue Id="15" Value="500" />
+        <PreValue Id="16" Value="200" />
+      </PreValues>
+    </DataType>
+  </DataTypes>
+</umbPackage>

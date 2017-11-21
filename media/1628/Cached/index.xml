@@ -1,0 +1,37 @@
+<imageIndex>
+  <image>
+    <originalFileName>greybeauty.jpg</originalFileName>
+    <size>61911</size>
+    <dateLastModified>2010-05-19 07:26:52</dateLastModified>
+    <cachedImage>
+      <fileName>2nxtzk7c.jpeg</fileName>
+      <dateCreated>2010-05-19 10:02:57</dateCreated>
+      <dateLastAccessed>2011-03-04 10:42:07</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>80</compression>
+      <width>150</width>
+      <height>112</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>True</constrain>
+      <pad>False</pad>
+    </cachedImage>
+    <cachedImage>
+      <fileName>dkjbpl9e.jpeg</fileName>
+      <dateCreated>2010-05-20 09:26:21</dateCreated>
+      <dateLastAccessed>2011-02-26 10:06:08</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>80</compression>
+      <width>500</width>
+      <height>374</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+    </cachedImage>
+  </image>
+</imageIndex>

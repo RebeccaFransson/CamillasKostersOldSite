@@ -1,0 +1,37 @@
+<imageIndex>
+  <image>
+    <originalFileName>lektioner.jpg</originalFileName>
+    <size>67270</size>
+    <dateLastModified>2010-05-19 07:29:00</dateLastModified>
+    <cachedImage>
+      <fileName>jbh30axt.jpeg</fileName>
+      <dateCreated>2010-05-19 11:32:10</dateCreated>
+      <dateLastAccessed>2010-05-27 01:00:48</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>80</compression>
+      <width>620</width>
+      <height>347</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>True</constrain>
+      <pad>False</pad>
+    </cachedImage>
+    <cachedImage>
+      <fileName>nzbuw8nh.jpeg</fileName>
+      <dateCreated>2010-05-22 08:04:10</dateCreated>
+      <dateLastAccessed>2010-05-22 08:04:10</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>80</compression>
+      <width>649</width>
+      <height>363</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+    </cachedImage>
+  </image>
+</imageIndex>

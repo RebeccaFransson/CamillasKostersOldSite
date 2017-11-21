@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" MasterPageFile="/masterpages/CKHorselifeRoot.master" AutoEventWireup="true" %>
+
+
+
+<asp:Content ContentPlaceHolderID="headerContent" runat="server">
+<div class="left noMargin headerImage">
+<umbraco:Macro Alias="HeaderImage" runat="server"></umbraco:Macro>
+</div>
+<div class="three bottomMargin ingressBox roundedCornersRight noMargin left">
+<umbraco:Item field="ingress" recursive="true" runat="server"></umbraco:Item></div>
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="leftColumnContent" runat="server">
+<div class="clear left four noMargin topMargin rightPadding">
+<h2><umbraco:Item ID="Item1" field="headline" runat="server"></umbraco:Item></h2>
+<div id="subNavigation"><umbraco:Macro ID="Macro1" startingLevel="2" recurse="1" selectBranches="1" maxMenuDepth="999" ulBaseClass="vertical" branchClass="branch" selectedClass="selected" Alias="[COG]Navigation" runat="server"></umbraco:Macro></div>
+</div>
+
+</asp:Content>
+
+
+<asp:Content ContentPlaceHolderID="MainContent" runat="server">
+<div class="pageBody left topMargin six">
+<umbraco:Item field="pageBody" runat="server"></umbraco:Item>
+
+<asp:ContentPlaceHolder ID="eventHolder" runat="server">
+<umbraco:Macro source="1045" Alias="Horse-repeater" runat="server"></umbraco:Macro>
+
+
+</div>
+</asp:ContentPlaceHolder>
+
+
+</asp:Content>

@@ -1,0 +1,25 @@
+<imageIndex>
+  <image>
+    <originalFileName>daredevil.jpg</originalFileName>
+    <size>42316</size>
+    <dateLastModified>2010-05-09 09:17:16</dateLastModified>
+    <cachedImage>
+      <fileName>q-bkphmw.jpeg</fileName>
+      <dateCreated>2010-05-09 11:21:31</dateCreated>
+      <dateLastAccessed>2010-05-15 01:11:10</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>80</compression>
+      <rotate>0</rotate>
+      <colorMode />
+      <crop />
+      <width>100</width>
+      <height>96</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>True</constrain>
+      <pad>False</pad>
+    </cachedImage>
+  </image>
+</imageIndex>

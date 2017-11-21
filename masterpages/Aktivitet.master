@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" MasterPageFile="/masterpages/CKHorselifeRoot.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderID="headerContent" runat="server">
+<div class="left noMargin headerImage"><umbraco:Macro Alias="HeaderImage" runat="server"></umbraco:Macro></div>
+<div class="three bottomMargin ingressBox roundedCornersRight noMargin left">
+<umbraco:Item field="ingress" runat="server"></umbraco:Item></div>
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="leftColumnContent" runat="server">
+<div class="clear left four noMargin topMargin rightPadding">
+<h2>Aktiviteter</h2>
+<div id="subNavigation"><umbraco:Macro ID="Macro1" startingLevel="2" recurse="0" selectBranches="4" maxMenuDepth="999" ulBaseClass="vertical" branchClass="ancestorSelected" selectedClass="selected" Alias="[COG]Navigation" runat="server"></umbraco:Macro></div>
+
+
+</div>
+</asp:Content>
+
+
+<asp:Content ContentPlaceHolderID="MainContent" runat="server">
+<div class="pageBody left topMargin six">
+<h3 class="fontXLarge blue"><umbraco:Item field="eventHeadline" runat="server"></umbraco:Item></h3>
+<p class="ingress"><umbraco:Item ID="eventIngress" field="eventIngress" runat="server"></umbraco:Item></p>
+
+<umbraco:Macro Alias="EventMainImage" runat="server"></umbraco:Macro>
+
+
+<p class="startDate left">
+<b>Aktiviteten börjar:</b>
+<br/>
+den <umbraco:Item  runat="server" field="eventStartDate" xslt="umbraco.library:FormatDateTime({0},'d MMMM yyyy')"></umbraco:Item>
+<br />klockan <umbraco:Item  runat="server" field="eventStartDate" xslt="umbraco.library:FormatDateTime({0},'HH:mm')"></umbraco:Item>
+</p>
+<p class="endDate left">
+<b>Aktiviteten slutar:</b><br/>
+den <umbraco:Item  runat="server" field="eventEndDate" xslt="umbraco.library:FormatDateTime({0},'d MMMM yyyy')"></umbraco:Item>
+<br />klockan <umbraco:Item  runat="server" field="eventEndDate" xslt="umbraco.library:FormatDateTime({0},'HH:mm')"></umbraco:Item> 
+</p>
+<br class="clear"/>
+
+<umbraco:Item field="eventDescription" runat="server"></umbraco:Item>
+
+</div>
+</asp:Content>

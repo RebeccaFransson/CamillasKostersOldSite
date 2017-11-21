@@ -1,0 +1,37 @@
+<imageIndex>
+  <image>
+    <originalFileName>aktiviteter.jpg</originalFileName>
+    <size>45847</size>
+    <dateLastModified>2010-05-19 07:29:06</dateLastModified>
+    <cachedImage>
+      <fileName>i85l1om4.jpeg</fileName>
+      <dateCreated>2010-05-19 09:57:26</dateCreated>
+      <dateLastAccessed>2010-05-22 07:26:03</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>80</compression>
+      <width>620</width>
+      <height>347</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>True</constrain>
+      <pad>False</pad>
+    </cachedImage>
+    <cachedImage>
+      <fileName>dtcvyark.jpeg</fileName>
+      <dateCreated>2010-05-20 09:22:28</dateCreated>
+      <dateLastAccessed>2010-05-22 08:06:40</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>80</compression>
+      <width>649</width>
+      <height>363</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+    </cachedImage>
+  </image>
+</imageIndex>

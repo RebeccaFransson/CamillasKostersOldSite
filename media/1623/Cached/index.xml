@@ -1,0 +1,52 @@
+<imageIndex>
+  <image>
+    <originalFileName>gienek.jpg</originalFileName>
+    <size>77700</size>
+    <dateLastModified>2010-05-19 07:26:51</dateLastModified>
+    <cachedImage>
+      <fileName>gxpok2ry.jpeg</fileName>
+      <dateCreated>2010-05-19 10:02:33</dateCreated>
+      <dateLastAccessed>2011-10-17 05:39:06</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>80</compression>
+      <width>150</width>
+      <height>112</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>True</constrain>
+      <pad>False</pad>
+    </cachedImage>
+    <cachedImage>
+      <fileName>mwjq3jww.jpeg</fileName>
+      <dateCreated>2010-05-20 09:26:13</dateCreated>
+      <dateLastAccessed>2011-10-13 05:17:16</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>80</compression>
+      <width>500</width>
+      <height>375</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+    </cachedImage>
+    <cachedImage>
+      <fileName>s3dpijen.jpeg</fileName>
+      <dateCreated>2011-08-22 03:36:26</dateCreated>
+      <dateLastAccessed>2011-08-22 03:36:26</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>80</compression>
+      <width>150</width>
+      <height>112</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>True</constrain>
+      <pad>False</pad>
+    </cachedImage>
+  </image>
+</imageIndex>

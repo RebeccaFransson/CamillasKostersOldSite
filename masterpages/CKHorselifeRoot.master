@@ -1,0 +1,54 @@
+<%@ Master Language="C#" MasterPageFile="/umbraco/masterpages/default.master" AutoEventWireup="true" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolderDefault" runat="server">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"[]> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head id="head" runat="server">
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<title><asp:placeholder runat="server"><umbraco:Item runat="server" field="pageName" /> - CK Horselife i Skåne</asp:placeholder></title>
+        <script src="/scripts/jquery-1.4.2.min.js" type="text/javascript"></script>
+        <script src="/scripts/imageSlider.js" type="text/javascript"></script>     
+        <script src="/scripts/main.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="/css/ckhorselife.css" /> 
+        <link href="../css/editor.css" rel="stylesheet" type="text/css" />
+	</head>
+	
+	<body>
+<div id="heightHolder">
+<div id="contentHolder">
+<div id="header">
+<h1><a href="/default.aspx">CK Horselife</a></h1>
+
+<div id="siteHeader">
+<umbraco:Macro startingLevel="1" recurse="0" selectBranches="1" maxMenuDepth="1" ulBaseClass="horizontal" branchClass="branch" selectedClass="selected" Alias="[COG]Navigation" runat="server"></umbraco:Macro>
+</div>
+
+
+</div>
+
+<asp:ContentPlaceHolder ID="headerContent" runat="server"></asp:ContentPlaceHolder>
+<asp:ContentPlaceHolder ID="leftColumnContent" runat="server"></asp:ContentPlaceHolder>
+<asp:ContentPlaceHolder ID="mainContent" runat="server"></asp:ContentPlaceHolder>
+
+
+ </div>
+   <div id="siteFooter">
+     
+     <div id="footerInnerContent">
+     <div class="footerLeft">
+      <umbraco:Item ID="Item1" field="pageFooterInfo" recursive="true" runat="server"></umbraco:Item>
+      </div>
+      
+      <div class="footerRight">
+      <h5 class="left">Samarbetspartner</h5>
+      <a href="http://www.svedvet.se" target="_blank"><img src="/images/svedala.jpg" /></a>
+      
+      </div>
+   </div>
+   </div>
+   
+  
+   
+   </div>
+	</body>
+</html> 
+</asp:content>

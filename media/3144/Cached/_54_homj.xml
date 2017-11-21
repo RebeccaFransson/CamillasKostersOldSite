@@ -1,0 +1,37 @@
+<imageIndex>
+  <image>
+    <originalFileName>_dsc0385.jpg</originalFileName>
+    <size>132665</size>
+    <dateLastModified>2010-07-15 11:37:28</dateLastModified>
+    <cachedImage>
+      <fileName>aiplfqpu.jpeg</fileName>
+      <dateCreated>2012-01-17 04:00:55</dateCreated>
+      <dateLastAccessed>2012-02-20 12:58:58</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>80</compression>
+      <width>523</width>
+      <height>347</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>True</constrain>
+      <pad>False</pad>
+    </cachedImage>
+    <cachedImage>
+      <fileName>huiwdvkd.jpeg</fileName>
+      <dateCreated>2012-01-18 03:15:05</dateCreated>
+      <dateLastAccessed>2012-02-13 10:11:40</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>80</compression>
+      <width>1000</width>
+      <height>664</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+    </cachedImage>
+  </image>
+</imageIndex>

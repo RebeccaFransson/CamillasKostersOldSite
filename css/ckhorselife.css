@@ -1,0 +1,704 @@
+﻿/* Table of content 
+***********************
+1. Reset 
+2. Typo
+3. Layout
+4. Graphic elements
+5. Controls 
+7. Misc.
+***********************/
+
+
+/* 1. Reset 
+*************************************************************************************/
+
+/* Reset Headlines */ 
+h1, h2, h3, h4, h5, h6, p
+{ 
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+} 
+
+/* Links */
+a   {   outline : none;      } /* Gets rid of Firefox's dotted borders */
+a img { border: none;       } /* Gets rid of IE's blue borders */
+
+a:link, a:visited
+{
+    text-decoration: none;
+    color: #B89757; 
+}
+
+a:hover, a:active, a:focus
+{
+   color: #B89757; 
+   text-decoration: underline;
+}
+
+/* Normalize */ 
+table       { border-collapse: collapse; border-spacing: 0; }
+caption, th { text-align: left; }
+li          { list-style: none; }
+
+ul, ol, dl, dt, dd, blockquoute, form, input, th, td, label
+{
+    margin: 0; 
+    padding: 0;
+}
+
+
+/* 2. Typo 
+*************************************************************************************/
+
+body
+{
+    color: #000;
+	font-family: Georgia, times new Roman, Georgia, seriof;
+	font-size: 62.5%;
+}
+
+h2
+{
+    font-size: 4.2em;
+    color: #b89757;
+    font-style: italic;
+    
+}
+
+h3 
+{
+    font-size: 1.4em;
+    margin: 0 0 20px 0;
+	line-height: 150%;
+}  
+
+p.ingress
+{
+    color: #404F53;
+    line-height: 182%;
+    margin-top: 10px;
+    font-size: 1.4em;
+    font-style: italic;
+}
+
+
+/* Basic paragraph setting for cols */
+
+.pageBody 
+{
+    border-left: 2px solid #d1e4ea;
+    padding-left: 20px;
+}
+
+.em11
+{
+    font-size: 1.1em;  
+    line-height: 182%;
+    color: #404f53;
+}
+
+.em13
+{
+    font-size: 1.3em;  
+    line-height: 182%;
+
+}
+
+
+.pageBody p
+{
+    font-size: 1.3em;  
+    line-height: 182%;
+    color: #404f53;
+    margin-bottom: 23px;
+}
+
+.pageBody h3
+{
+    font-size: 2.4em;
+    line-height: 160%;
+    margin-bottom: 0;
+    font-style: italic;
+    color: #4991a6;
+}
+
+.pageBody h4
+{
+    font-size: 1.5em;
+    line-height: 160%;
+    margin-bottom: 0;
+    color: #4991a6;
+}
+
+
+.pageBody ul li
+{
+    list-style-type: disc;
+    font-size: 1.3em;  
+    line-height: 200%;
+    color: #404f53;
+    margin-left: 40px;
+}
+
+.pageBody ul
+{
+    margin-bottom: 20px;
+}
+
+
+
+/* Extras for Texts */
+.inline                    { display: inline; }
+.uppercase                 { text-transform: uppercase; }
+.clear		               { clear: both; }
+.block                     { display: block; }
+.underline                 { border-bottom: 2px solid #044245; }
+.seperatorLine             { border-top: 2px solid #044245; }
+.bold                      { font-weight: bold; }
+.italic                    { font-style: italic; }
+.topMarginHalf             { margin-top: 10px; }
+.topMargin                 { margin-top: 20px; }
+.topMarginDouble           { margin-top: 40px; }
+.rightMargin 		       { margin-right: 20px; }
+.rightPadding 		       { padding-right: 20px; }
+.topPadding                { padding-top: 20px; }
+.topPaddingDouble          { padding-top: 40px; }
+.topPaddingHalf            { padding-top: 10px; }
+.bottomPadding             { padding-bottom: 20px; }
+.bottomPaddingHalf         { padding-bottom: 10px; }
+.bottomMargin              { margin-bottom: 20px }
+.bottomMarginHalf          { margin-bottom: 10px }
+.doubleTopMargin           { padding-top: 40px; }
+
+
+/* Headline Colors */
+.lightGreen  { color: #107175; }
+.darkGreen   { color: #6b8e33; }
+.blue        { color: #5a9ec1; }
+
+
+.georgia { font-family: Georgia, Times New Roman, Serif; }
+
+/* Headline sizes */
+.fontXLarge                  { font-size: 3.0em; }
+.fontLarge                   { font-size: 2.6em;   }
+.fontMedium                  { font-size: 1.5em; line-height: 157%; }
+.fontSmall                   { font-size: 1.6em; }
+.fontSmallest                { font-size: 1.2em; line-height: 157%; text-transform: none }
+
+.imgBorder
+{
+    border: 1px solid #a6a6a6;
+    padding: 2px;
+}
+
+
+/* Default list with dots */
+ul#standardList li, #mainContentHolder li
+{
+    font-size: 1.1em;
+    line-height: 172%;
+    background: transparent url(images/listItem.png) no-repeat 0 7px;
+    padding: 0 0 0 10px;
+}
+
+/* Links and files icons */
+h5.links, h5.files { padding-left: 18px; }
+
+h5.links
+{
+    font-size: 1.4em;
+    line-height: 157%;
+    text-transform: uppercase;
+    background: #fff url(images/linkIconGreen.gif) no-repeat 0 1px;
+}
+
+h5.files
+{
+    font-size: 1.4em;
+    line-height: 157%;
+    text-transform: uppercase;
+    background: #fff url(images/filesIconGreen.gif) no-repeat 0 1px;
+}
+
+.hidden
+{
+	display: none;
+}
+
+.hiddenText
+{
+    text-indent: -9999px;
+}
+
+/* 3. Layout 
+*************************************************************************************/
+
+html { text-align: center; height: 100%;}
+
+body
+{
+    background: #f9fcfc url(images/heaven.gif) repeat-x 0 0;
+    height: 100%;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+#heightHolder
+{
+    _height: 100%;
+    min-height: 100%;
+    overflow: hidden;
+	position: relative;
+}
+
+.horsesForSaleStart
+{
+
+    width: 315px;
+    margin-right: 10px;
+}
+
+
+
+#header
+{
+    width: 950px; 
+    height: 209px;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    z-index: 2;
+    background: transparent url(images/blueHeader.jpg) no-repeat 0 0;
+}
+
+h1 a
+{
+    position: absolute;
+    top: 15px;
+    left: 400px;
+    width: 135px;
+    height: 168px;
+    z-index: 3;
+    display: block;
+    text-indent: -9999px;
+    background: transparent url(images/logo.png) no-repeat 0 0;
+}
+
+#siteHeader
+{
+    width: 910px;
+    margin: 0 auto;
+    margin-top: 230px;
+}
+
+#siteHeader ul
+{
+    overflow: hidden;
+    clear: both;
+    padding: 10px 0 30px 0;   
+}
+
+#siteHeader ul li 
+{
+    float: left;
+    display: inline;
+}
+
+#siteHeader a:link, #siteHeader a:visited
+{
+    font-family: Georgia, Times New Roman, Serif;
+    font-size: 2em;
+    padding: 5px 15px;
+    display: block;
+    color: #b89757;
+    border-right: 1px solid #cccccc;
+  
+}
+
+#subNavigation
+{
+    margin-top: 20px;
+    border-top: 1px solid #cccccc;
+}
+
+#subNavigation ul li a:link, #subNavigation ul li a:visited
+{
+    font-family: Georgia, Times New Roman, Serif;
+    font-size: 2em;
+    padding: 15px;
+    display: block;
+    color: #b89757;
+    border-bottom: 1px solid #cccccc;
+
+}
+
+
+
+#subNavigation ul.lv1 li.hasChildren a.selected
+{
+    padding-bottom: 5px;
+    border: 1px solid red;
+    border:  none;
+}
+
+#subNavigation ul li ul.lv2 li a
+{
+    font-size: 1.3em;
+    padding: 10px 15px 5px 15px;
+    border: none;
+}
+
+#subNavigation ul li ul.lv2
+{
+    padding: 0 0 10px 0;
+}
+
+
+#siteFooter
+{
+    background: transparent url(images/siteFooter.gif) repeat-x 0 0;
+    width: 100%;
+    height: 182px;  
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+#footerInnerContent
+{
+    margin: 0 auto;
+    width: 890px;
+    overflow: hidden;
+    padding: 70px 40px 208px 40px;
+    font-size: 1.3em;
+    color: #fff;
+}
+
+.footerLeft
+{
+    width: 600px;
+    float: left;
+    margin-right: 20px;
+}
+
+.footerRight
+{
+    width: 260px;
+    float: left;
+    margin-right: 10px;
+}
+
+#footerInnerContent h5
+{
+    width: 100%;
+    color: #fff;
+    font-size: 1.4em;
+    line-height: 170%;
+    border-bottom: 1px solid #e7f2da;
+    margin-bottom: 10px;
+}
+
+
+#footerInnerContent ul li
+{
+    line-height: 180%;
+    float: left; display: inline; padding-right: 10px;
+}
+
+
+#contentHolder
+{
+    background: transparent url(images/contentRepeat.png) repeat-y 0 0;
+    margin: 0 auto;
+    width: 930px;
+    overflow: hidden;
+    min-height: 800px;
+    padding: 300px 20px 208px 20px;
+    position: relative;
+}
+
+#mainContentHolder, #basicMainLayout, #wideLayout
+{
+    position: relative;
+    float: left;
+    display: inline;
+    width: 780px;
+    padding: 0 0 40px 0;
+    margin: 0 0 0 10px;
+}
+
+/* LayoutFloats */
+
+.left             { display: inline; float: left;   margin-right: 20px; }
+.right            { display: inline; float: right;  margin-left: 20px; }
+.left.noMargin    { display: inline; float: left;   margin-right: 0; }
+.right.noMargin   { display: inline; float: right;  margin-left: 0; }
+.left.smallMargin { display: inline; float: left;   margin-right: 10px; }
+.center           { margin: 0 auto; }
+
+* html .left      { margin-right: 6px }
+
+.bottom   { position: absolute; bottom: 0; left: 0; }
+.relative { position: relative; }
+#mainContentHolder .col p { margin: 0; } /* Reset if col */
+
+/* For images in Text */
+#mainContentHolder p img.left        { margin-left: -80px; }  
+#mainContentHolder p img.right       { margin-right: -80px;}
+#mainContentHolder p img.left.inset  { margin-left: 0; }
+#mainContentHolder p img.right.inset { margin-right: 0; }
+#mainContentHolder p img.solo        { margin-bottom: 20px; }
+*html #mainContentHolder p img {  width: expression(this.width > 370 ? 370: true); } /* Fix width in ie6 for images */
+
+/* Column sizes */
+.two    {  width: 160px; }
+.three  {  width: 250px; }
+.four   {  width: 330px; }
+.five   {  width: 430px; }
+.six    {  width: 520px; }
+.seven  {  width: 600px; }
+.eight  {  width: 700px; }
+.nine   {  width: 790px; }
+.ten    {  width: 880px; }
+.eleven {  width: 970px; }
+
+
+.postStartPage
+{
+    float: left;
+    width: 400px;   
+}
+
+.postStartPage img
+{
+    width: 400px;
+}
+
+/* 4. Graphic elements 
+*************************************************************************************/
+
+.imageBlog
+{
+    height: 345px;
+    margin: 10px 0 20px 0;
+    overflow: hidden;
+}
+
+
+.pinkHeader
+{
+    width: 540px;
+    background: #f9edf0;
+    border-bottom: 3px solid #e6b7c5;
+    color: #474747;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    padding: 5px 5px 3px 5px;
+    margin-bottom: 10px;
+}
+
+.eventImageLarge
+{
+    margin-bottom: 30px;
+}
+
+.hr
+{
+    margin-bottom: 20px;
+    border-bottom: 1px solid #5a9ec1;
+}
+
+
+#slideshow
+{
+    position: relative;
+    width: 600px;
+    height: 363px;
+}
+
+#slideshow img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 8;
+    opacity:0.0;
+    border: 1px solid #c2a367;
+}
+
+#slideshow img.active 
+{
+    z-index: 10;
+    opacity: 1.0;
+}
+
+#slideshow img.last-active 
+{
+    z-index: 9;
+}
+
+.ingressBox
+{
+    background: #fffde6;
+    padding: 23px;
+    font-size: 1.8em;
+    line-height: 180%;
+    color: #767024;
+    font-style: italic;
+    width: 245px;
+    height: 301px;
+}
+
+
+
+.headerImage
+{
+    width: 622px;
+    overflow: hidden;
+}
+
+
+
+ul.mainEntranceStart
+{
+
+    background: #b89757;
+    width: 320px;
+    height: 338px;
+    float: left;
+    display: inline;
+}
+
+ul.mainEntranceStart li a span
+{
+    width: 100%;
+    float: left;
+    display: block;
+    color: #fdf7ec;
+    margin: 3px 0 6px 0;
+    padding: 0;
+    font-size: 1.8em;
+    font-family: Georgia, Times New Roman, Serif;
+}
+
+ul.mainEntranceStart li
+{
+    border-bottom: 1px solid #c2a367;
+}
+
+ul.mainEntranceStart li.last
+{
+    border: none;
+}
+
+ul.mainEntranceStart li a:hover
+{
+    display: block;
+    background: #a5884e;
+    text-decoration: none;
+    color: #eee1c7;
+}
+
+ul.mainEntranceStart li a
+{
+
+    display: block;
+    color: #fff;
+    padding: 8px;
+    font-family: verdana, Arial;
+    font-size: 1.1em;
+    line-height: 160%;
+}
+
+span.date
+{
+    color: #5ab8e0;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+
+/* 5. Controls.
+*************************************************************************************/
+
+
+ul#horseCategories li
+{
+    list-style: none;
+    float: left;
+    display: inline;
+    margin: 0 20px 20px 0;
+    padding: 0;
+    min-height: 150px;
+}
+
+ul#horseCategories li span
+{
+    display: block;
+}
+
+ul#horseCategories li a
+{
+    text-decoration: none;
+    display: block;
+}
+
+ul#horseCategories li a span:hover
+{
+    text-decoration: underline;
+}
+
+/* MainContent on startpage */
+
+
+
+/* 7. Misc.
+*************************************************************************************/
+
+body#grid
+{
+    background: transparent url(/img/grid.png) repeat-y center center;
+}
+
+
+
+
+
+
+
+
+/* Controls */ 
+
+ul#horsesForSaleStart
+{
+    margin-top: 10px;
+}
+
+ul#horsesForSaleStart li
+{
+    clear: both;
+    margin-bottom: 10px;
+}
+
+ul#horsesForSaleStart li a
+{
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+ul#horsesForSaleStart li a:hover
+{
+    background: #fffde6;
+}
+
+.horseForSaleRight 
+{
+    width: 180px;
+    float: left;
+}

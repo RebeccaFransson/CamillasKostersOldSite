@@ -1,0 +1,37 @@
+<imageIndex>
+  <image>
+    <originalFileName>carmencita.jpg</originalFileName>
+    <size>52046</size>
+    <dateLastModified>2010-05-19 07:26:35</dateLastModified>
+    <cachedImage>
+      <fileName>57hyama4.jpeg</fileName>
+      <dateCreated>2010-05-19 10:02:58</dateCreated>
+      <dateLastAccessed>2011-02-23 08:08:29</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>80</compression>
+      <width>150</width>
+      <height>112</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>True</constrain>
+      <pad>False</pad>
+    </cachedImage>
+    <cachedImage>
+      <fileName>hd3m8hig.jpeg</fileName>
+      <dateCreated>2010-05-20 09:26:21</dateCreated>
+      <dateLastAccessed>2011-02-23 08:14:16</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>80</compression>
+      <width>500</width>
+      <height>375</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+    </cachedImage>
+  </image>
+</imageIndex>

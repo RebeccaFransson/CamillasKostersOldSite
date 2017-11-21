@@ -1,0 +1,37 @@
+<imageIndex>
+  <image>
+    <originalFileName>currant.jpg</originalFileName>
+    <size>89096</size>
+    <dateLastModified>2010-05-19 07:26:40</dateLastModified>
+    <cachedImage>
+      <fileName>ptuj2cwq.jpeg</fileName>
+      <dateCreated>2010-05-19 10:02:33</dateCreated>
+      <dateLastAccessed>2011-07-14 09:53:48</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>80</compression>
+      <width>150</width>
+      <height>112</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>True</constrain>
+      <pad>False</pad>
+    </cachedImage>
+    <cachedImage>
+      <fileName>2g3f4q6w.jpeg</fileName>
+      <dateCreated>2010-05-20 09:26:13</dateCreated>
+      <dateLastAccessed>2011-07-13 10:21:35</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>80</compression>
+      <width>500</width>
+      <height>375</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+    </cachedImage>
+  </image>
+</imageIndex>

@@ -1,0 +1,970 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" class="FF FF3 ">
+
+<head id="ctl00_ctl00_HeadTag"><meta http-equiv="X-UA-Compatible" content="IE=7" /><link id="ctl00_ctl00_MasterCss" type="text/css" rel="stylesheet" href="http://i1.codeplex.com/css/v16429/i5159/StyleSheet.ashx" /><link rel="SHORTCUT ICON" href="../../favicon.ico" />
+    <style type="text/css">.SideBar, .SideBarPadding{display:none;}.MainContent{width:auto;}.SiteContentTable{width:100%;}</style>
+    <style id="ctl00_ctl00_Header_ProjectStyles" type="text/css">.SiteHeader,.SiteHeaderLeft{height:45px !important;overflow:hidden;}.SiteContent{padding:0 1em 1em 1em;margin-top:0;min-height:225px;}.FF .SiteContentTable{clear:both;}.ProjectContent{min-height:225px;}.Safari .ProjectContent{padding-top:0em;}.IE6 .ProjectTitleControl{position:relative;}.CanvasMargin{width:0;}h1.ProjectHeader{font-size:2em;font-weight:bold;margin-bottom:0;}.ProjectHeader a{color:#3E62A6;}.IE table.MinWidthContent{table-layout:auto !important;}.ProjectMessage{border:solid 0.1em #ccc;background-color:#F1FCEE;padding:1em;}</style>
+    
+    
+    
+    
+    <style id="ctl00_ctl00_Header_Header_ProjectReleasesStyles" type="text/css">.ProjectReleasesSidebar{min-height:16em;max-height:16em;overflow:auto;}.IE6 .ProjectReleasesSidebar{height:8em;width:19em;}.IE6 .ProjectReleasesSidebar .Scrollable{width:19em;overflow:auto;overflow-x:hidden;overflow-y:auto;}</style>
+
+    <meta id="ctl00_ctl00_Header_WTProjectName" name="WT.pi" content="blog4umbraco"></meta>
+<link rel="alternate" type="application/rss+xml" title="blog for umbraco 4" href="http://blog4umbraco.codeplex.com/Project/ProjectRss.aspx" /><link rel="alternate" type="application/rss+xml" title="blog for umbraco 4-Discussions" href="http://blog4umbraco.codeplex.com/Project/ProjectRss.aspx?ProjectRSSFeed=codeplex%3a%2f%2fforum%2fblog4umbraco" /><link rel="alternate" type="application/rss+xml" title="blog for umbraco 4-Issue Tracker" href="http://blog4umbraco.codeplex.com/Project/ProjectRss.aspx?ProjectRSSFeed=codeplex%3a%2f%2fworkitem%2fblog4umbraco" /><link rel="alternate" type="application/rss+xml" title="blog for umbraco 4-Releases" href="http://blog4umbraco.codeplex.com/Project/ProjectRss.aspx?ProjectRSSFeed=codeplex%3a%2f%2frelease%2fblog4umbraco" /><link rel="alternate" type="application/rss+xml" title="blog for umbraco 4-Source Code" href="http://blog4umbraco.codeplex.com/Project/ProjectRss.aspx?ProjectRSSFeed=codeplex%3a%2f%2fsourcecontrol%2fblog4umbraco" /><link rel="alternate" type="application/rss+xml" title="blog for umbraco 4-Wiki" href="http://blog4umbraco.codeplex.com/Project/ProjectRss.aspx?ProjectRSSFeed=codeplex%3a%2f%2fwiki%2fblog4umbraco" /><link rel="alternate" type="application/rss+xml" title="blog for umbraco 4-Reviews" href="http://blog4umbraco.codeplex.com/Project/ProjectRss.aspx?ProjectRSSFeed=codeplex%3a%2f%2freview%2fblog4umbraco" /><title>
+	blog4umbraco - Release: Blog 4 Umbraco 2.0.26
+</title></head>
+
+<body onload="masterLoad();">
+    <form name="aspnetForm" method="POST" action="/releases/view/42119" id="aspnetForm" autocomplete="off" enctype="multipart/form-data">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEwOTIwNDY2MzAPZBYCZg9kFgJmD2QWBGYPZBYEAgEPFgIeBGhyZWYFN2h0dHA6Ly9pMS5jb2RlcGxleC5jb20vY3NzL3YxNjQyOS9pNTE1OS9TdHlsZVNoZWV0LmFzaHhkAgMPZBYGZg8WAh4JaW5uZXJodG1sBZ4ELlNpdGVIZWFkZXIsLlNpdGVIZWFkZXJMZWZ0e2hlaWdodDo0NXB4ICFpbXBvcnRhbnQ7b3ZlcmZsb3c6aGlkZGVuO30uU2l0ZUNvbnRlbnR7cGFkZGluZzowIDFlbSAxZW0gMWVtO21hcmdpbi10b3A6MDttaW4taGVpZ2h0OjIyNXB4O30uRkYgLlNpdGVDb250ZW50VGFibGV7Y2xlYXI6Ym90aDt9LlByb2plY3RDb250ZW50e21pbi1oZWlnaHQ6MjI1cHg7fS5TYWZhcmkgLlByb2plY3RDb250ZW50e3BhZGRpbmctdG9wOjBlbTt9LklFNiAuUHJvamVjdFRpdGxlQ29udHJvbHtwb3NpdGlvbjpyZWxhdGl2ZTt9LkNhbnZhc01hcmdpbnt3aWR0aDowO31oMS5Qcm9qZWN0SGVhZGVye2ZvbnQtc2l6ZToyZW07Zm9udC13ZWlnaHQ6Ym9sZDttYXJnaW4tYm90dG9tOjA7fS5Qcm9qZWN0SGVhZGVyIGF7Y29sb3I6IzNFNjJBNjt9LklFIHRhYmxlLk1pbldpZHRoQ29udGVudHt0YWJsZS1sYXlvdXQ6YXV0byAhaW1wb3J0YW50O30uUHJvamVjdE1lc3NhZ2V7Ym9yZGVyOnNvbGlkIDAuMWVtICNjY2M7YmFja2dyb3VuZC1jb2xvcjojRjFGQ0VFO3BhZGRpbmc6MWVtO31kAgEPZBYCAgMPFgIfAQXgAS5Qcm9qZWN0UmVsZWFzZXNTaWRlYmFye21pbi1oZWlnaHQ6MTZlbTttYXgtaGVpZ2h0OjE2ZW07b3ZlcmZsb3c6YXV0bzt9LklFNiAuUHJvamVjdFJlbGVhc2VzU2lkZWJhcntoZWlnaHQ6OGVtO3dpZHRoOjE5ZW07fS5JRTYgLlByb2plY3RSZWxlYXNlc1NpZGViYXIgLlNjcm9sbGFibGV7d2lkdGg6MTllbTtvdmVyZmxvdzphdXRvO292ZXJmbG93LXg6aGlkZGVuO292ZXJmbG93LXk6YXV0bzt9ZAICDxYEHgdjb250ZW50BQxibG9nNHVtYnJhY28eB1Zpc2libGVnZAIBD2QWCAIBD2QWCAIBD2QWBAIBD2QWBAIBDw8WAh4LTmF2aWdhdGVVcmwFIWh0dHA6Ly9ibG9nNHVtYnJhY28uY29kZXBsZXguY29tL2RkAgMPDxYCHwQFIWh0dHA6Ly9ibG9nNHVtYnJhY28uY29kZXBsZXguY29tL2QWAmYPZBYCAgEPDxYCHgRUZXh0BRJibG9nIGZvciB1bWJyYWNvIDRkZAIDD2QWAmYPZBYCAgEPDxYCHghJbWFnZVVybAU6aHR0cDovL2kzLmNvZGVwbGV4LmNvbS9JbWFnZXMvdjE2NDI5L3NlYXJjaC1idXR0b24tb2ZmLmdpZhYEHgtvbm1vdXNlb3ZlcgVQamF2YXNjcmlwdDp0aGlzLnNyYz0naHR0cDovL2kzLmNvZGVwbGV4LmNvbS9JbWFnZXMvdjE2NDI5L3NlYXJjaC1idXR0b24tb24uZ2lmJzseCm9ubW91c2VvdXQFUWphdmFzY3JpcHQ6dGhpcy5zcmM9J2h0dHA6Ly9pMy5jb2RlcGxleC5jb20vSW1hZ2VzL3YxNjQyOS9zZWFyY2gtYnV0dG9uLW9mZi5naWYnO2QCAw9kFgQCAQ9kFgRmDw8WAh8DaGQWAgIDD2QWAmYPZBYCAgEPZBYEAgUPDxYCHwNoZGQCBw8PFgIfA2hkZAIBD2QWAgIDD2QWAgIBD2QWAgIBD2QWAgIBD2QWAgIBDxYCHwAFWWh0dHA6Ly9ibG9nNHVtYnJhY28uY29kZXBsZXguY29tL1Byb2plY3QvRWRpdFByb2plY3REZXRhaWxzLmFzcHg/Rm9jdXNFbGVtZW50PURlc2NyaXB0aW9uZAIDD2QWAmYPFgIfA2gWAmYPDxYCHwQFQGh0dHA6Ly9ibG9nNHVtYnJhY28uY29kZXBsZXguY29tL1Byb2plY3QvRWRpdFByb2plY3REZXRhaWxzLmFzcHhkZAIFDw8WAh8DaGRkAgcPZBYEAgEPZBYSAgEPFgIeBWNsYXNzBRJUYWIgSW5hY3RpdmVUYWJOZXcWAgIBDw8WAh8EBSFodHRwOi8vYmxvZzR1bWJyYWNvLmNvZGVwbGV4LmNvbS9kZAIDDxYCHwkFEFRhYiBBY3RpdmVUYWJOZXcWAgIBDw8WAh8EBTRodHRwOi8vYmxvZzR1bWJyYWNvLmNvZGVwbGV4LmNvbS9yZWxlYXNlcy92aWV3LzM3NzQzZGQCBQ8WBB8JBRJUYWIgSW5hY3RpdmVUYWJOZXcfA2gWAgIBDw8WAh8EBS5odHRwOi8vYmxvZzR1bWJyYWNvLmNvZGVwbGV4LmNvbS9kb2N1bWVudGF0aW9uZGQCBw8WAh8JBRJUYWIgSW5hY3RpdmVUYWJOZXcWAgIBDw8WAh8EBTFodHRwOi8vYmxvZzR1bWJyYWNvLmNvZGVwbGV4LmNvbS9UaHJlYWQvTGlzdC5hc3B4ZGQCCQ8WAh8JBRJUYWIgSW5hY3RpdmVUYWJOZXcWAgIBDw8WAh8EBTRodHRwOi8vYmxvZzR1bWJyYWNvLmNvZGVwbGV4LmNvbS93b3JraXRlbS9saXN0L2Jhc2ljZGQCCw8WAh8JBRJUYWIgSW5hY3RpdmVUYWJOZXcWAgIBDw8WAh8EBT5odHRwOi8vYmxvZzR1bWJyYWNvLmNvZGVwbGV4LmNvbS9Tb3VyY2VDb250cm9sL2xpc3QvY2hhbmdlc2V0c2RkAg0PFgIfCQUSVGFiIEluYWN0aXZlVGFiTmV3FgICAQ8PFgIfBAUqaHR0cDovL2Jsb2c0dW1icmFjby5jb2RlcGxleC5jb20vdGVhbS92aWV3ZGQCDw8WAh8JBRJUYWIgSW5hY3RpdmVUYWJOZXcWAgIBDw8WAh8EBShodHRwOi8vYmxvZzR1bWJyYWNvLmNvZGVwbGV4LmNvbS9saWNlbnNlZGQCEQ9kFgQCAg9kFgICAw9kFgRmD2QWAgIBD2QWBAIBDw8WAh8GBThodHRwOi8vaTMuY29kZXBsZXguY29tL0ltYWdlcy92MTY0MjkvYXJyb3dfZHNjX2dyZWVuLmdpZmRkAgMPDxYCHwYFMWh0dHA6Ly9pMy5jb2RlcGxleC5jb20vSW1hZ2VzL3YxNjQyOS9pY29uX3Jzcy5naWZkZAIBD2QWAgIBD2QWAgIBD2QWDgIBD2QWAgIBDw8WAh8EBThodHRwOi8vYmxvZzR1bWJyYWNvLmNvZGVwbGV4LmNvbS9Qcm9qZWN0L1Byb2plY3RSc3MuYXNweGRkAgMPZBYCAgEPDxYCHwQFbWh0dHA6Ly9ibG9nNHVtYnJhY28uY29kZXBsZXguY29tL1Byb2plY3QvUHJvamVjdFJzcy5hc3B4P1Byb2plY3RSU1NGZWVkPWNvZGVwbGV4JTNhJTJmJTJmZm9ydW0lMmZibG9nNHVtYnJhY29kZAIFD2QWAgIBDw8WAh8EBXBodHRwOi8vYmxvZzR1bWJyYWNvLmNvZGVwbGV4LmNvbS9Qcm9qZWN0L1Byb2plY3RSc3MuYXNweD9Qcm9qZWN0UlNTRmVlZD1jb2RlcGxleCUzYSUyZiUyZndvcmtpdGVtJTJmYmxvZzR1bWJyYWNvZGQCBw9kFgICAQ8PFgIfBAVvaHR0cDovL2Jsb2c0dW1icmFjby5jb2RlcGxleC5jb20vUHJvamVjdC9Qcm9qZWN0UnNzLmFzcHg/UHJvamVjdFJTU0ZlZWQ9Y29kZXBsZXglM2ElMmYlMmZyZWxlYXNlJTJmYmxvZzR1bWJyYWNvZGQCCQ9kFgICAQ8PFgIfBAVuaHR0cDovL2Jsb2c0dW1icmFjby5jb2RlcGxleC5jb20vUHJvamVjdC9Qcm9qZWN0UnNzLmFzcHg/UHJvamVjdFJTU0ZlZWQ9Y29kZXBsZXglM2ElMmYlMmZyZXZpZXclMmZibG9nNHVtYnJhY29kZAILD2QWAgIBDw8WAh8EBXVodHRwOi8vYmxvZzR1bWJyYWNvLmNvZGVwbGV4LmNvbS9Qcm9qZWN0L1Byb2plY3RSc3MuYXNweD9Qcm9qZWN0UlNTRmVlZD1jb2RlcGxleCUzYSUyZiUyZnNvdXJjZWNvbnRyb2wlMmZibG9nNHVtYnJhY29kZAIND2QWAgIBDw8WAh8EBWxodHRwOi8vYmxvZzR1bWJyYWNvLmNvZGVwbGV4LmNvbS9Qcm9qZWN0L1Byb2plY3RSc3MuYXNweD9Qcm9qZWN0UlNTRmVlZD1jb2RlcGxleCUzYSUyZiUyZndpa2klMmZibG9nNHVtYnJhY29kZAIED2QWBGYPDxYCHwYFOmh0dHA6Ly9pMy5jb2RlcGxleC5jb20vSW1hZ2VzL3YxNjQyOS9hcnJvd19yaWdodF9ncmVlbi5naWZkZAICDw8WAh8GBTFodHRwOi8vaTMuY29kZXBsZXguY29tL0ltYWdlcy92MTY0MjkvaWNvbl9yc3MuZ2lmZGQCBw8WAh4Fd2lkdGgFAzE1JRYCAgEPDxYEHghDc3NDbGFzcwU0U3RhbmRhcmRQYWRkaW5nIFNpZGVCYXIgUmlnaHRTaWRlQmFyIEdyYWRpZW50U2lkZUJhch4EXyFTQgICZGQCAg8WAh8FBb8DPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPg0KICAgIHZhciBDb2RlUGxleF9TdXJ2ZXlQcm9maWxlID0gbmV3IE9iamVjdCgpOw0KICAgIENvZGVQbGV4X1N1cnZleVByb2ZpbGUuQ29va2llRG9tYWluID0gJy5jb2RlcGxleC5jb20nOw0KICAgIENvZGVQbGV4X1N1cnZleVByb2ZpbGUuRnJlcXVlbmN5ID0gMC4wMDg7DQoJQ29kZVBsZXhfU3VydmV5UHJvZmlsZS5Vc2VDb29raWUgPSB0cnVlOw0KCUNvZGVQbGV4X1N1cnZleVByb2ZpbGUuV2VpZ2h0ID0gMTAwOw0KICAgIENvZGVQbGV4X1N1cnZleVByb2ZpbGUuUGFnZVVybCA9ICcvc2l0ZS9saWJyYXJ5L3N2eS9TaXRlUmVjcnVpdF9UcmFja2VyX3AyNjM4NjM2NS5odG0nDQo8L3NjcmlwdD4NCjxzY3JpcHQgc3JjPSIvc2l0ZS9saWJyYXJ5L3N2eS9icm9rZXIuanMiIHR5cGU9InRleHQvamF2YXNjcmlwdCI+PC9zY3JpcHQ+ZAIDDw8WAh8GBS5odHRwOi8vaTMuY29kZXBsZXguY29tL0ltYWdlcy92MTY0MjkvYmxhbmsucG5nFgIeBm9ubG9hZAUZc2VsZi5sb2dvSW1hZ2VMb2FkZWQ9dHJ1ZWQCBA8WAh8DZ2QYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgEFO2N0bDAwJGN0bDAwJE1hc3RlckNvbnRlbnQkUHJvamVjdFNlYXJjaENvbnRyb2wkU2VhcmNoQnV0dG9u" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=az5BZ-9qYZGtlZ8uC5a1Pw2&amp;t=634037543116833054" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=xNw9FpiVpFVQ4jNrrYM4Raj_YCM0kmycnwo9yzFq_eVqDI2FckprIUvcsxWmwp0QWX2YUnHWgHggm04qKBdGBTS3cVY0ZgzlecOnmEPtUuw1&amp;t=5f011aa5" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=xNw9FpiVpFVQ4jNrrYM4Raj_YCM0kmycnwo9yzFq_eVqDI2FckprIUvcsxWmwp0QgGaFo13npFNrDU20b7v-e_jX6HsUp5jBxRa6Wlbmf9g1&amp;t=5f011aa5" type="text/javascript"></script>
+<script src="http://i1.codeplex.com/scripts/v16429/i16777199/ScriptLoader.ashx" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWAwL0hpT/DALYp/iUDgKD35z6DQ==" />
+</div>
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ctl00$ScriptManager', 'aspnetForm', [], [], [], 90, 'ctl00$ctl00');
+//]]>
+</script>
+
+    <table id="CanvasTable" cellpadding=0 cellspacing=0>
+        <tr valign="top">
+            <td>
+                <div id="Canvas">
+                    <div id="CanvasContent">
+                        
+    <div id="ctl00_ctl00_MasterContent_ProjectHeader">
+        <table class="FullWidth" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+                <td class="FullWidth" valign="bottom">
+                    <div class="ProjectLogoLeft">
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td style="height:90px;" valign="middle">
+                                    <div style="padding-left: 1.1em; padding-top: 1.1em; padding-bottom:.8em;">
+                                        
+                                        
+<div class="ProjectTitleControl HalfMarginBottom">
+    <a id="ctl00_ctl00_MasterContent_ProjectTitleControl1_ProjectTitleLink" href="http://blog4umbraco.codeplex.com/"></a>
+    <a id="ctl00_ctl00_MasterContent_ProjectTitleControl1_ProjectTitleLink1" href="http://blog4umbraco.codeplex.com/"><h1 id="ctl00_ctl00_MasterContent_ProjectTitleControl1_ProjectHeader" class="ProjectHeader NoMargin">
+            <span id="ctl00_ctl00_MasterContent_ProjectTitleControl1_TitleLabel">blog for umbraco 4</span>
+        </h1></a>
+</div>
+
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>    
+                </td>
+                <td valign="top">
+                    <div class="ProjectLogoRight" onmouseover="this.style.cursor = 'hand';" onmouseout="this.style.cursor = 'default';">
+                        <div class="LogoLinkOuter">
+                            <a href='http://www.codeplex.com' class="LogoLink" title="CodePlex Home"><div class="LogoLinkInner">CodePlex Home</div></a>
+                        </div>
+                    </div>
+                </td>
+                <td valign="top" class="StandardPaddingTop SiteHeaderProjectRight" style="padding-right: 1.7em; padding-left: .1em">
+                    
+        <div class="NoWrap ProjectSignInControl">
+            <a href="https://www.codeplex.com/site/register" id="registerLink" class="ZoomFix">Register</a>
+            <span class="VerticalBarTop ZoomFix">|</span>
+            <a href="https://www.codeplex.com/site/login?RedirectUrl=http%3a%2f%2fblog4umbraco.codeplex.com%2freleases%2fview%2f42119%3fProjectName%3dblog4umbraco" id="signInLink" class="ZoomFix">Sign In</a>
+            <span class="VerticalBarTop ZoomFix">|</span>
+            <a class="ZoomFix" href='http://www.codeplex.com'>CodePlex Home</a>
+        </div>
+    
+                    <div style="margin-top: .5em;">
+                        <div id="ctl00_ctl00_MasterContent_ProjectSearchControl_ProjectSearchPanel" class="ProjectSearchPanel NoWrap" onkeypress="javascript:return WebForm_FireDefaultButton(event, &#39;ctl00_ctl00_MasterContent_ProjectSearchControl_SearchButton&#39;)">
+	
+    <div class="ProjectSearchPanel">
+        <input name="ctl00$ctl00$MasterContent$ProjectSearchControl$SearchTextBox" type="text" maxlength="500" id="ctl00_ctl00_MasterContent_ProjectSearchControl_SearchTextBox" class="SingleLineTextBox ProjectSearchTextBox" />
+        <input type="image" name="ctl00$ctl00$MasterContent$ProjectSearchControl$SearchButton" id="ctl00_ctl00_MasterContent_ProjectSearchControl_SearchButton" class="ProjectSearchButton" onmouseover="javascript:this.src=&#39;http://i3.codeplex.com/Images/v16429/search-button-on.gif&#39;;" onmouseout="javascript:this.src=&#39;http://i3.codeplex.com/Images/v16429/search-button-off.gif&#39;;" src="http://i3.codeplex.com/Images/v16429/search-button-off.gif" alt="Search" style="border-width:0px;" />
+        <script type="text/javascript" defer="defer" src="http://i4.services.social.microsoft.com/search/Widgets/SearchBox.jss?appid=1000&scopeid=1&boxId=ctl00_ctl00_MasterContent_ProjectSearchControl_SearchTextBox&btnId=ctl00_ctl00_MasterContent_ProjectSearchControl_SearchButton&watermark=Search%20all%20CodePlex%20projects&overrideWatermark=true&searchLocation=http%3a%2f%2fwww.codeplex.com%2fsite%2fsearch&allowEmptySearch=true"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                if (typeof epx_loaded === 'undefined' || !epx_loaded) {
+                    $('#ctl00_ctl00_MasterContent_ProjectSearchControl_SearchButton').bind('click', doProjectSearch);
+                    $('#ctl00_ctl00_MasterContent_ProjectSearchControl_SearchTextBox').bind('keydown', function (e) { { if ($keyCode(e) === 13) return doProjectSearch(); } });
+                }
+            })
+            function doProjectSearch() {
+                window.location.replace('http://www.codeplex.com/site/search?query=' + $('#ctl00_ctl00_MasterContent_ProjectSearchControl_SearchTextBox').val());
+                return false;
+            }
+        </script>
+    </div>
+
+</div>
+
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="ProjectBody" class="SiteContent">
+        <div id="ctl00_ctl00_MasterContent_ProjectDetailsDiv">
+            
+
+<script type="text/javascript">
+    function VerifyProjectDeletion()
+    {
+        var result = confirm("Are you sure you want to delete this project?  You will not be able to recover it later");
+        if (result)
+            ShowUpdatingPanel();
+        else
+            allowUnsavedDataAlert();
+        return result;
+    }
+    function ShowPublishPanel()
+    {
+        ShowUpdatingPanel();
+    }
+    function ShowUpdatingPanel()
+    {
+        var publishButton=$('#ctl00_ctl00_MasterContent_ProjectCountdown_PublishProject_PublishButton')[0];
+        var deleteButton=$('#ctl00_ctl00_MasterContent_ProjectCountdown_PublishProject_DeleteButton')[0];
+
+        setTimeout(function() { CodePlex.UpdateProgress.displayPanelAndDisableControls('Updating...', publishButton, deleteButton) }, 1);
+    }
+</script>
+<div class="ClearBoth"></div>
+<div class="StandardPaddingBottom">
+
+
+</div>
+<script type="text/javascript">
+    // replaces the smartdatecontrol's "Today" with "today" or "on {Date}" for this user control
+    function formatDate() {
+        var dateSpan = $('#ctl00_ctl00_MasterContent_ProjectCountdown_PublishProject_DeletionDateLiteral');
+        if (dateSpan.text().toLowerCase() == "today")
+            dateSpan.text("today");
+        else
+            dateSpan.text("on " + dateSpan.text());
+    }
+    formatDate();
+</script>
+
+            
+
+        </div>
+            
+        <table class="SiteContentTable" cellspacing="0" cellpadding="0">
+            <tr valign="top">
+               <td class="MainContent">
+                    <div class="MainContentMinWidthContent">
+                        
+                        
+                        <div id="ctl00_ctl00_MasterContent_ProjectContentPanel" class="ProjectContent">
+	
+                            <div id="MenuDiv">
+                                
+    
+<div class="TabStripNew">
+    <table cellpadding="0" cellspacing="0" border="0" class="FullWidth">
+        <tr>
+            <td id="ctl00_ctl00_MasterContent_Tabs_homeTabCell" class="Tab InactiveTabNew">
+                <a id="ctl00_ctl00_MasterContent_Tabs_homeTab" class="TabLinkNew" href="http://blog4umbraco.codeplex.com/"><div class="TabPadding">Home</div></a>
+            </td>
+	
+            <td id="ctl00_ctl00_MasterContent_Tabs_releasesTabCell" class="Tab ActiveTabNew">
+                <a id="ctl00_ctl00_MasterContent_Tabs_releasesTab" class="TabLinkNew" href="http://blog4umbraco.codeplex.com/releases/view/37743"><div class="TabPadding">Downloads</div></a>
+            </td>
+	
+            
+            <td id="ctl00_ctl00_MasterContent_Tabs_discussionTabCell" class="Tab InactiveTabNew">
+                <a id="ctl00_ctl00_MasterContent_Tabs_discussionTab" class="TabLinkNew" href="http://blog4umbraco.codeplex.com/Thread/List.aspx"><div class="TabPadding">Discussions</div></a> 
+            </td>
+	
+            <td id="ctl00_ctl00_MasterContent_Tabs_workItemsTabCell" class="Tab InactiveTabNew">
+                <a id="ctl00_ctl00_MasterContent_Tabs_workItemsTab" class="TabLinkNew" href="http://blog4umbraco.codeplex.com/workitem/list/basic"><div class="TabPadding">Issue Tracker</div></a>
+            </td>
+	
+            <td id="ctl00_ctl00_MasterContent_Tabs_sourceTabCell" class="Tab InactiveTabNew">
+                <a id="ctl00_ctl00_MasterContent_Tabs_sourceTab" class="TabLinkNew" href="http://blog4umbraco.codeplex.com/SourceControl/list/changesets"><div class="TabPadding">Source Code</div></a>
+            </td>
+	
+            <td id="ctl00_ctl00_MasterContent_Tabs_peopleTabCell" class="Tab InactiveTabNew">
+                <a id="ctl00_ctl00_MasterContent_Tabs_peopleTab" class="TabLinkNew" href="http://blog4umbraco.codeplex.com/team/view"><div class="TabPadding">People</div></a>
+            </td>
+	
+            <td id="ctl00_ctl00_MasterContent_Tabs_licenseTabCell" class="Tab InactiveTabNew">
+                <a id="ctl00_ctl00_MasterContent_Tabs_licenseTab" class="TabLinkNew" href="http://blog4umbraco.codeplex.com/license"><div class="TabPadding">License</div></a>
+            </td>
+	
+            <td class="FullWidth LastTabNew" nowrap="nowrap">
+                <style id="ctl00_ctl00_MasterContent_Tabs_rssFeeds_ProjectDirectoryStyles" type="text/css">
+        .FF .RightMarginFix{
+            margin-right: 1px;
+        }
+        .HoverPanel{
+            position: absolute; 
+            display: none;
+            z-index: 3; 
+        }
+        .IE .HoverPanel{
+            margin-left: -1px;
+        }
+        .IE7 HoverPanel{
+            margin-top: 1px;
+        }
+        .IE6 .HoverPanel .Content{
+	        margin-top: -13px;
+        }
+        .LeftHoverWidth{
+            width: 16.4em;
+        }
+        .HoverClosePanel{
+            width: 4em;
+            position: absolute; 
+            right: 2em;
+            top: -1.9em;
+            z-index: 1;
+        }
+        .HoverClosePanel .RoundedContent{
+            min-height: 2em;
+            height: 2em;
+        }
+        .HoverContentPanel{
+            position:relative;
+            z-index: 2;
+        }
+        .MockPanelBorder{
+            padding-left: 1px;
+            padding-right: 1px;
+        }
+</style>
+    
+<script type="text/javascript">
+        function setMaxHeight(divName, bottomPixelPadding){
+            var constraindiv = $('#' + divName)[0];
+            var divpoint = CodePlex.UI.getElementPosition(constraindiv);
+            var maxHeight = $('#Canvas').offset().top - divpoint.y - bottomPixelPadding;
+            var scrollHeight = constraindiv.scrollHeight;
+            constraindiv.style.height = (scrollHeight > maxHeight) ? maxHeight + 'px' : 'auto';
+        }
+        function placeHover(linkname, hovername) {
+            var link = $('#' + linkname)[0];
+            var $hover = $('#' + hovername);
+            var point = CodePlex.UI.getElementPosition(link);
+            $hover.css('left', (point.x - 135) + 'px');
+            $hover.css('top', (point.y - 7) + 'px');
+            $hover.css('display', 'block');
+        }
+        
+        function closeHover(hovername) {
+            $('#' + hovername).css('display', '');
+        }
+        function closeHovers() {
+            $('#rssHoverDiv').css('display', '');
+        }
+</script>
+    
+<div id="rssHoverDiv" class="HoverPanel LeftHoverWidth AlignLeft">
+        <div id="ctl00_ctl00_MasterContent_Tabs_rssFeeds_RssHoverContentPanel" class="ContentPanelBox SideBarControl HoverContentPanel" style="">
+		<div id="ctl00_ctl00_MasterContent_Tabs_rssFeeds_RssHoverContentPanel_headerPanel" class="HeaderPanel Header">
+			
+    
+                <div class="StandardPaddingBottom">
+                    <div style="float:right">
+                        <a href="#" onclick="allowUnsavedDataAlert();closeHover('rssHoverDiv'); return false;">Close</a>
+                    </div>
+                    <div style="float:left" onclick="allowUnsavedDataAlert();closeHover('rssHoverDiv');">
+                        <a href="#" onclick="return false;"><img id="ctl00_ctl00_MasterContent_Tabs_rssFeeds_RssHoverContentPanel_ArrowDownImg3" src="http://i3.codeplex.com/Images/v16429/arrow_dsc_green.gif" style="height:9px;width:9px;border-width:0px;" /></a>
+                        <a href="#" onclick="return false;">RSS</a>
+                        <img id="ctl00_ctl00_MasterContent_Tabs_rssFeeds_RssHoverContentPanel_rssFeedImageHover" hspace="5" src="http://i3.codeplex.com/Images/v16429/icon_rss.gif" alt="RSS Feed" style="border-width:0px;border: 0px; vertical-align: bottom;" />
+                    </div>
+                    <div class="ClearBoth"></div>
+                </div>
+           
+
+		</div><div id="ctl00_ctl00_MasterContent_Tabs_rssFeeds_RssHoverContentPanel_contentPanel" class="StandardPadding">
+			
+    
+           <ul id="ctl00_ctl00_MasterContent_Tabs_rssFeeds_RssHoverContentPanel_FeedsPanel" class="RssFeedsPanel">
+            <div id="ctl00_ctl00_MasterContent_Tabs_rssFeeds_RssHoverContentPanel_ProjectPanel">
+				
+                <li>
+                    <a id="ctl00_ctl00_MasterContent_Tabs_rssFeeds_RssHoverContentPanel_ProjectRssLink" title="All Project Updates" class="ArrowSmall NoUnderline" href="http://blog4umbraco.codeplex.com/Project/ProjectRss.aspx">All Project Updates</a>
+                </li>
+            
+			</div>
+            <div id="ctl00_ctl00_MasterContent_Tabs_rssFeeds_RssHoverContentPanel_DiscussionsPanel">
+				
+                <li>
+                    <a id="ctl00_ctl00_MasterContent_Tabs_rssFeeds_RssHoverContentPanel_DiscussionsRssLink" title="New threads and posts" class="ArrowSmall NoUnderline" href="http://blog4umbraco.codeplex.com/Project/ProjectRss.aspx?ProjectRSSFeed=codeplex%3a%2f%2fforum%2fblog4umbraco">Discussions</a>
+                </li>
+            
+			</div>
+            <div id="ctl00_ctl00_MasterContent_Tabs_rssFeeds_RssHoverContentPanel_IssueTrackerPanel">
+				
+                <li>    
+                    <a id="ctl00_ctl00_MasterContent_Tabs_rssFeeds_RssHoverContentPanel_IssueTrackerRssLink" title="New and updated work items" class="ArrowSmall NoUnderline" href="http://blog4umbraco.codeplex.com/Project/ProjectRss.aspx?ProjectRSSFeed=codeplex%3a%2f%2fworkitem%2fblog4umbraco">Issue Tracker</a>
+                </li>
+            
+			</div>
+            <div id="ctl00_ctl00_MasterContent_Tabs_rssFeeds_RssHoverContentPanel_ReleasesPanel">
+				
+                <li>
+                    <a id="ctl00_ctl00_MasterContent_Tabs_rssFeeds_RssHoverContentPanel_ReleasesRssLink" title="New and updated releases" class="ArrowSmall NoUnderline" href="http://blog4umbraco.codeplex.com/Project/ProjectRss.aspx?ProjectRSSFeed=codeplex%3a%2f%2frelease%2fblog4umbraco">Releases</a>
+                </li>
+            
+			</div>  
+            <div id="ctl00_ctl00_MasterContent_Tabs_rssFeeds_RssHoverContentPanel_ReviewsPanel">
+				
+                <li>
+                    <a id="ctl00_ctl00_MasterContent_Tabs_rssFeeds_RssHoverContentPanel_ReviewsRssLink" title="New and updated reviews" class="ArrowSmall NoUnderline" href="http://blog4umbraco.codeplex.com/Project/ProjectRss.aspx?ProjectRSSFeed=codeplex%3a%2f%2freview%2fblog4umbraco">Reviews</a>
+                </li>
+            
+			</div>          
+            <div id="ctl00_ctl00_MasterContent_Tabs_rssFeeds_RssHoverContentPanel_SourceControlPanel">
+				
+                <li>
+                    <a id="ctl00_ctl00_MasterContent_Tabs_rssFeeds_RssHoverContentPanel_SourceControlRssLink" title="New check-ins" class="ArrowSmall NoUnderline" href="http://blog4umbraco.codeplex.com/Project/ProjectRss.aspx?ProjectRSSFeed=codeplex%3a%2f%2fsourcecontrol%2fblog4umbraco">Source Code</a>
+                </li>
+            
+			</div>
+            <div id="ctl00_ctl00_MasterContent_Tabs_rssFeeds_RssHoverContentPanel_WikiPanel">
+				
+                <li>
+                    <a id="ctl00_ctl00_MasterContent_Tabs_rssFeeds_RssHoverContentPanel_WikiRssLink" title="New and updated wiki pages" class="ArrowSmall NoUnderline" href="http://blog4umbraco.codeplex.com/Project/ProjectRss.aspx?ProjectRSSFeed=codeplex%3a%2f%2fwiki%2fblog4umbraco">Wiki & Documentation</a>
+                </li>
+            
+			</div>
+        </ul>
+           
+
+		</div>
+	</div>  
+</div>
+    
+<div class="StandardPaddingBottom">
+    <span  id="rssHoverLink" onclick="closeHovers();placeHover('rssHoverLink', 'rssHoverDiv');suppressUnsavedData();">
+    <span id="ctl00_ctl00_MasterContent_Tabs_rssFeeds_FeedsLabel"><img id="ctl00_ctl00_MasterContent_Tabs_rssFeeds_rssRightArrow" title="RSS Feed" src="http://i3.codeplex.com/Images/v16429/arrow_right_green.gif" align="absmiddle" style="border-width:0px;" />
+        <a href="#" onclick="return false;">RSS</a>
+        <img id="ctl00_ctl00_MasterContent_Tabs_rssFeeds_rssFeedImage" hspace="5" src="http://i3.codeplex.com/Images/v16429/icon_rss.gif" alt="RSS Feed" style="border-width:0px;border: 0px; vertical-align:bottom; " /></span>
+    </span>
+</div>
+    
+        
+
+            </td>
+        </tr>
+    </table>
+</div>
+                                
+                            </div>
+                            <table cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                    <td valign="top" >
+                                        <div id="ctl00_ctl00_MasterContent_ContentPanel" class="Content">
+		
+                                            
+    <script type="text/javascript">
+        $(document).ready(function () {
+            addCanvasBounceForFF();
+            
+            downloadFile(null, false, false); 
+            
+
+            if ($('#rateRelease').length === 1 && $getQuerystring("RateReview").toLowerCase() === "true") {
+                ShowRatingsLightBox();
+            }
+        });
+
+    
+    </script>
+    <div id="ProjectRelease" class="ItemContainer" style="padding: 0em 0em 0em .63em;">
+        <table class="FullPanel" cellspacing="0" cellpadding="0">
+            <tr>
+                <td class="FullWidth AlignTop">
+                    <div id="ContentDiv" class="Content StandardMarginTop">
+                    
+                        <div id="ErrorPanel" class="Error" style="clear: both; font-size: 1.25em; display:none;">
+                        </div>
+
+                        <div class="TitleBar">
+                            <table cellspacing="0" cellpadding="0" border="0" class="FullWidth Fixed">
+                                <tr>
+                                    <td valign="middle">
+                                        <div id="TitleContentDiv" class="TitleContentDiv">
+                                            <div class="Title StandardMarginBottom">
+                                                <span id="TitleLabel" class="CodePlexPageHeader">Blog 4 Umbraco 2.0.26</span>
+                                                
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        
+
+<div id="ReleaseMetaDataPanel" class="ReleaseMetaData SubText">
+    <table>
+    
+        <tr>
+            <th>Released:</th>
+            <td>
+                <span id="ReleaseDateLiteral" class="smartDate dateOnlyNoShort" LocalTimeTicks="1268841600">Mar 17 2010</span>
+            </td>
+        </tr>
+    
+        <tr>
+            <th>Updated:</th>
+            <td>
+                <span id="ReleaseModifierDateLiteral" class="smartDate dateOnlyNoShort" LocalTimeTicks="1268862469">Mar 17 2010</span>
+                by <a id="ReleaseModifierHyperlink" href="http://www.codeplex.com/site/users/view/starfighter83">starfighter83</a>
+            </td>
+        </tr>
+    
+        <tr>
+            <th>Dev status:</th>
+            <td>
+                <span id="DevelopmentStatusLiteral">
+                Stable
+                    <img id="DevelopmentStatusHelpIcon" style="padding-left:.5em;vertical-align: bottom;" src="http://i3.codeplex.com/Images/v16429/HelpIcon.gif" title="Stable: This software is believed to be ready for use" />
+                
+                </span>
+            </td>
+        </tr>
+    
+        <tr>
+            <th>Rated:</th>
+            <td>
+                <span id="RatingLiteral">
+                
+                    <span id="NoRatingsMessage">No ratings yet for this release</span>
+                
+                            (<a id="AddOwnRatingHyperlink" style="cursor:pointer;" href="https://www.codeplex.com/site/login?RedirectUrl=http%3a%2f%2fblog4umbraco.codeplex.com%2freleases%2fview%2f42119%3fRateReview%3dtrue">Add your own rating</a>)
+                        
+                </span>
+            </td>
+        </tr>
+        <tr>
+            <th>Reviewed:</th>
+            <td>
+                <span id="ReviewedLiteral">
+                
+                    0 reviews
+                
+                </span>
+            </td>
+        </tr>
+    
+        <tr>
+            <th>Downloaded:</th>
+            <td><span id="ReleaseDownloadsLiteral">7 downloads</span></td>
+        </tr>
+        <tr>
+            <th>Wiki link:</th>
+            <td><span id="ReleaseWikiLinkLiteral">[release:42119]</span></td>
+        </tr>
+    
+        <tr>
+            <th>Change Set:</th>
+            <td><span id="ChangesetLiteral"><a href="http://blog4umbraco.codeplex.com/SourceControl/changeset/view/40819">40819</a></span></td>
+        </tr>
+    
+
+    </table>
+</div>
+<script type="text/javascript">
+    function isPlatformInstallerAgent() {
+        return navigator.userAgent.toLowerCase().indexOf('platform-installer/') != -1;
+    }
+
+    function downloadFile(link, userClick, alreadyLoaded) {
+        if (userClick)
+            return downloadFileImpl(link, null);
+
+        if (!alreadyLoaded) {
+            var downloadId = $getQuerystring("DownloadId");
+            if (!downloadId)
+                downloadId = getIdFromFragment();
+            if (downloadId)
+                return downloadFileImpl(null, downloadId);
+        }
+
+        return false;
+    }
+
+    function downloadFileImpl(link, fromHash) {
+        if (!link && !fromHash)
+            return false;
+
+        var fileId = fromHash;
+        if (link)
+            fileId = $(link).attr('d:fileId');
+
+        $('#downloadFileId').val(fileId);
+
+        if (isPlatformInstallerAgent()) {
+            submitDownloadFile();
+            return false;
+        }
+
+        OpenDialog('#LicenseAgreePanel', true, '58em', 'LicensePanel');
+        return false;
+    }
+
+    function getIdFromFragment() {
+        var path = document.location.toString();
+
+        if (path.match('#')) {
+            var fileID = '#' + path.split('#')[1];
+
+            if (fileID.toLowerCase().indexOf("downloadid=") > 0) {
+                fileID = fileID.split("=");
+
+                if (fileID[1].length > 0) {
+                    return fileID[1];
+                }
+            }
+        }
+    }
+
+    function submitDownloadFile() {
+        OpenDialog('#LicenseAgreePanel', false);
+        $('<form method="POST" action="http://blog4umbraco.codeplex.com/releases/acceptLicense">' +
+          '<input type="hidden" name="fileId" value="' + $('#downloadFileId').val() + '" />' +
+          '<input type="hidden" name="releaseId" value="42119" />' +
+          '</form>').appendTo('body').submit().remove();
+    }
+</script>
+<div id="ReleaseFiles" class="ReleaseNotesDiv">
+    <a id="ReleaseFiles"></a>
+    
+        <div id="recommendedFileDiv">
+            <h3 class="Header"><img src="http://i3.codeplex.com/Images/v16429/dl_small.png" />&nbsp;Recommended Download</h3><br /><br />
+            
+
+<div id="FileListItem0" class="FileListItemDiv">
+    <img id="fileImage0" class="FileTypeImage" style="vertical-align:middle;" src="http://i3.codeplex.com/Images/v16429/RuntimeBinary.gif" alt="Application" />
+    <a id="fileDownload0" tabIndex="9" onclick="suppressUnsavedData();return downloadFile(this, true, false)" class="FileNameLink" href="http://blog4umbraco.codeplex.com/releases/view/42119#DownloadId=111409" d:fileId="111409">Package</a>
+    <div>
+        <span id="fileItemInfo0" class="SubText">
+            application,
+            98K, uploaded
+            <span class="smartDate dateOnly" LocalTimeTicks="1268862469">Mar 17</span> -
+            7 downloads
+        </span>
+    </div>
+</div>
+            <div class="ClearLeft"></div><br />
+        </div>
+        
+</div>
+<div class="ReleaseNotesDiv">
+    <table cellspacing="0" cellpadding="0" border="0" class="FullWidth Fixed">
+        <tr>
+            <td>
+                <div id="ReleaseDescriptionPanel" class="StandardMarginTop Description">
+                    <h3 class="Header">Release Notes</h3>
+                    <div id="ReleaseNotes" class="WikiContent">
+                        <div class="wikidoc">Fixes:<br />-Regex bug in base<br />-Directory urls and rss link bug<br />-Open reader bug<br />-Rss bug</div><div class="ClearBoth"></div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+<div id="ReviewsPanel">
+    <a id="ReviewsAnchor"></a>
+    <div id="ReviewsDivisionHeader" class="DivisionHeader">&nbsp;<b>Reviews</b> for this release</div>
+    
+            <input type="button" id="RateReleaseButton" value="Rate this release" class="DefaultButton" style="width:auto;" onclick="location.href='https://www.codeplex.com/site/login?RedirectUrl=http%3a%2f%2fblog4umbraco.codeplex.com%2freleases%2fview%2f42119%3fRateReview%3dtrue'" />
+        
+    <div id="Reviews">
+    No reviews yet for this release.
+    
+    </div>
+</div>
+
+
+<div id="LicenseAgreePanel" style="display: none;" title="To download the file you must agree to the following license.">
+    <div class="Body">
+        <textarea class="CommentBox" cols="20" id="LicenseText" name="LicenseText" readonly="readonly" rows="20">
+Copyright (c) 2009 Tim Geyssens
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</textarea>
+        <input type="hidden" id="downloadFileId" />
+    </div>
+    <div class="Buttons">
+        <input type="button" id="AgreeButton" class="DefaultButton" onclick="submitDownloadFile();allowUnsavedDataAlert();" value="I Agree" />
+        <input type="button" id="DisagreeButton" class="Button" onclick="allowUnsavedDataAlert();OpenDialog('#LicenseAgreePanel', false);" value="I Disagree" />
+    </div>
+</div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+                                        
+	</div>
+                                    </td>
+                                    <td id="ctl00_ctl00_MasterContent_RightSideBarCell" valign="top" width="15%">
+                                        <div id="ctl00_ctl00_MasterContent_RightSideBarPanel" class="StandardPadding SideBar RightSideBar GradientSideBar">
+		
+                                            
+    
+
+<script type="text/javascript">
+    function toggleView(link) {
+        setReleaseClasses(['#releasedTypeLink', '#plannedTypeLink', '#hiddenTypeLink']);
+        hideReleaseDivs(['#releasedList', '#plannedList', '#hiddenList']);
+        var jLink = $(link);
+        jLink.addClass('ProjectReleaseHeaderViewSelectedLink');
+        $('#' + jLink.attr('d:associatedDiv')).show();
+    }
+    function hideReleaseDivs(args) {
+        for (i = 0; i < args.length; i++)
+            $(args[i]).hide();
+    }
+    function setReleaseClasses(args) {
+        for (i = 0; i < args.length; i++)
+            $(args[i]).removeClass('ProjectReleaseHeaderViewSelectedLink').addClass('ProjectReleaseHeaderViewLink');
+    }
+</script>
+
+<div class="ContentPanelBox SideBarControl"><div class="Content">
+    <div class="Header StandardPaddingBottom">
+        <table cellpadding="0" cellspacing="0">
+            <tr>
+                <td valign="top">
+                    <h2><span class="ProjectReleasesHeaderLabel">Releases</span></h2>
+                </td>
+                <td valign="top">
+                    <div id="HeaderLinksPanel" class="ProjectReleasesHeaderViewLinks">
+                        <a id="releasedTypeLink" href="#" onclick="toggleView(this);return false;" class="ProjectReleaseHeaderViewSelectedLink" d:associatedDiv="releasedList">Released</a> |
+                        <a id="plannedTypeLink" href="#" onclick="toggleView(this);return false;" class="ProjectReleaseHeaderViewLink" d:associatedDiv="plannedList">Planned</a>
+                        
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="ProjectReleasesSidebarPanel" class="ProjectReleasesSidebar">
+        <div id="ReleasesListDiv" class="Scrollable">
+            <div id="releasedList" >
+            
+<table cellpadding="0" cellspacing="0" width="100%">
+
+    <tr>
+        <td class="DefaultCellIcon">
+            
+        </td>
+        <td class="ReleaseCell ">
+            <a id="ReleaseLinkStable0" 
+               class="SelectedRelease" 
+               title="Blog&#32;4&#32;Umbraco&#32;2.0.26"
+               >Blog 4 Umbraco 2.0.26</a>
+            <div>
+                <span id="releaseListReleaseDateStable0" class="smartDate dateOnlyNoShort" LocalTimeTicks="1268841600">Mar 17 2010</span>, 
+                Stable
+            </div>
+            <div>
+                
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="DefaultCellIcon">
+            
+            <img id="DefaultReleaseImage" src="http://i3.codeplex.com/Images/v16429/defaultReleaseStar.gif" title="Recommended Release" />
+            
+        </td>
+        <td class="ReleaseCell AlternateBackground">
+            <a id="ReleaseLinkStable1" 
+               class="ReleaseLink DefaultRelease" 
+               title="Recommended Release: Blog&#32;4&#32;Umbraco&#32;2.0.24"
+                
+                href="http://blog4umbraco.codeplex.com/releases/view/37743" 
+               >Blog 4 Umbraco 2.0.24</a>
+            <div>
+                <span id="releaseListReleaseDateStable1" class="smartDate dateOnlyNoShort" LocalTimeTicks="1261674000">Dec 24 2009</span>, 
+                Stable
+            </div>
+            <div>
+                <span id="releaseListStarStable1RatingContainer" class="RatingStarContainer" title="5 star rating"><div id="releaseListStarStable1Rating_Star_0" class="RatingStar FilledRatingStar" d:rating="1">&nbsp;</div><div id="releaseListStarStable1Rating_Star_1" class="RatingStar FilledRatingStar" d:rating="2">&nbsp;</div><div id="releaseListStarStable1Rating_Star_2" class="RatingStar FilledRatingStar" d:rating="3">&nbsp;</div><div id="releaseListStarStable1Rating_Star_3" class="RatingStar FilledRatingStar" d:rating="4">&nbsp;</div><div id="releaseListStarStable1Rating_Star_4" class="RatingStar FilledRatingStar" d:rating="5">&nbsp;</div><span id="releaseListStarStable1ratingName"></span><input id="releaseListStarStable1currentRating" type="hidden" value="5" /></span>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="DefaultCellIcon">
+            
+        </td>
+        <td class="ReleaseCell ">
+            <a id="ReleaseLinkStable2" 
+               class="ReleaseLink" 
+               title="Blog&#32;for&#32;umbraco&#32;4&#32;v1.0.0"
+                
+                href="http://blog4umbraco.codeplex.com/releases/view/22670" 
+               >Blog for umbraco 4 v1.0.0</a>
+            <div>
+                <span id="releaseListReleaseDateStable2" class="smartDate dateOnlyNoShort" LocalTimeTicks="1233680400">Feb 3 2009</span>, 
+                Stable
+            </div>
+            <div>
+                <span id="releaseListStarStable2RatingContainer" class="RatingStarContainer" title="5 star rating"><div id="releaseListStarStable2Rating_Star_0" class="RatingStar FilledRatingStarMuted" d:rating="1">&nbsp;</div><div id="releaseListStarStable2Rating_Star_1" class="RatingStar FilledRatingStarMuted" d:rating="2">&nbsp;</div><div id="releaseListStarStable2Rating_Star_2" class="RatingStar FilledRatingStarMuted" d:rating="3">&nbsp;</div><div id="releaseListStarStable2Rating_Star_3" class="RatingStar FilledRatingStarMuted" d:rating="4">&nbsp;</div><div id="releaseListStarStable2Rating_Star_4" class="RatingStar FilledRatingStarMuted" d:rating="5">&nbsp;</div><span id="releaseListStarStable2ratingName"></span><input id="releaseListStarStable2currentRating" type="hidden" value="5" /></span>
+            </div>
+        </td>
+    </tr>
+
+</table>    
+
+            </div>
+            <div id="plannedList" style="display:none;">
+            
+<div style="text-align:center;">
+    <span id="NoReleaseErrorLabelPlanning" class="NoReleaseErrorLabel">There are no Planned releases for this project.</span>
+</div>
+
+            </div>
+            
+        </div>
+    </div>
+</div></div>
+<script type="text/javascript">
+    function saveSubscriptionDataDirectly(type) {
+        return saveSubscriptionDataCore(type, false);
+    }
+
+    function saveSubscriptionData() {
+        closeSubscriptionDialog();
+
+        var type = $('input[name=EmailSubscriptionTypeList]:checked').val();
+        if (type === '')
+            return false;
+        var removeIndividual = $('input[name=StopNotificationsCheckBox]:checked').val();
+        if (removeIndividual === undefined)
+            removeIndividual = false;
+        $('#subscriptionSettings').insertAfter('#IssueNotification');
+        return saveSubscriptionDataCore(type, removeIndividual);
+    }
+
+    function saveSubscriptionDataCore(type, removeIndividual) {
+        CodePlex.UpdateProgress.displayPanelAndDisableControls('Saving...');
+        $('#subscriptionContent').load('http://blog4umbraco.codeplex.com/subscriptions/Release/save', 
+                                       { deliveryStatus: type, isMiniDisplay: false, removeIndividualSubscriptions: removeIndividual },
+                                       function() { CodePlex.UpdateProgress.hide(); });
+        return false;
+    }
+
+    function showSubscriptionSelection() {
+        OpenDialog('#subscriptionSettings', true, '36em');
+        return false;
+    }
+
+    function closeSubscriptionDialog() {
+        OpenDialog('#subscriptionSettings', false);
+        return false;
+    }
+
+    function showStopNotifications() {
+        $('#stopNotificationsDiv').hide();
+        $('#StopNotificationsCheckBox').attr('checked', false);
+    }
+
+    var currentToolTipHeight = null;
+
+    function showUnsubscribeToolTip() {
+      if (currentToolTipHeight == null) { currentToolTipHeight = $('#unsubscribeToolTip').height()+30 };
+      var toolTip = $('#unsubscribeToolTipImage');
+
+      $('#unsubscribeToolTip').dialog('destroy');
+      $('#unsubscribeToolTip').dialog({ 
+        height: currentToolTipHeight, 
+        width: 275, 
+        position: [toolTip.offset().left-$(window).scrollLeft()+10, toolTip.offset().top-$(window).scrollTop()+10],
+        dialogClass: 'tooltip',
+        open: function() { $('#unsubscribeToolTip').show(); } 
+      });
+
+    }
+
+    function hideUnsubscribeToolTip() {
+      $('#unsubscribeToolTip').dialog('close');
+    }
+</script>
+
+<div id="subscriptionContent">
+    <div class="ContentPanelBox SideBarControl"><div class="Content">
+        <div id="IssueNotification">
+            <div class="Header StandardPaddingBottom">
+                <div class="NoWrap FixedLayoutRoundPanelHeaderTemplatePadding">
+                    <img src="http://i3.codeplex.com/Images/v16429/small-envelope.gif" />
+                    <span id="SubscriptionTitleLabel" class="NoWrap Selected AlignTop">Release Notification</span>
+                </div>
+            </div>
+            <div id="SubscriptionMessage">
+                <a id="subscriptionSignIn" href="https://www.codeplex.com/site/login?RedirectUrl=http%3a%2f%2fblog4umbraco.codeplex.com%2freleases%2fview%2f42119">Sign in</a> to display notification settings.
+            </div>
+        </div>
+        <div id="subscriptionSettings" class="ModalDialog" style="display:none; width: 250px;"> 
+            <div class="ModalDialogHeader">
+                <div class="ModalDialogHeaderIcon">
+                    <img src="http://i3.codeplex.com/Images/v16429/envelope.png" />
+                </div>
+                <div class="ModalDialogHeaderText">
+                    <div class="ModalDialogHeaderTitle"></div>
+                    <div class="ModalDialogHeaderSubText"></div>
+                </div>
+            </div>
+            <div class="ModalDialogContent">
+                <div class="ModalDialogContentBody">
+                    <div>Email me <span id="changeEmailAddressLink"><a href="/site/users/update?FocusElement=EmailAddressForChange">(change e-mail address)</a></span></div>
+                    <div><input type="radio" id="EmailSubscription_EachNewIssue" name="EmailSubscriptionTypeList" value="1" onclick="$('#stopNotificationsDiv').hide()"  /><label for="EmailSubscription_EachNewIssue">Each new issue, comment, or status change, as they come in</label></div>
+                    <div><input type="radio" id="EmailSubscription_DailyDigest" name="EmailSubscriptionTypeList" value="2" onclick="$('#stopNotificationsDiv').hide()"  /><label for="EmailSubscription_DailyDigest">A daily digest (summary) of new issues, comments, or statuses</label></div>
+                    <div style="display:none;">
+                        <input type="radio" id="EmailSubscription_Unsubscribe" name="EmailSubscriptionTypeList" value="0" onclick="$('#stopNotificationsDiv').show()" checked="checked" /><label for="EmailSubscription_Unsubscribe">Unsubscribe</label>
+                    </div>
+
+                    <div id="stopNotificationsDiv" style="display:none;overflow:hidden;width:330px" class="EmailSubscriptionCheck">
+                      <div style="float: left; width:24px;">
+                        <input id="StopNotificationsCheckBox" name="StopNotificationsCheckBox" type="checkbox" value="true" /><input name="StopNotificationsCheckBox" type="hidden" value="false" />
+                      </div>
+                      <div style="float: left; width: 300px;">
+                        <label for="StopNotificationsCheckBox">
+                          Also stop notifications for <i>individual</i> issue(s) I subscribed to.
+                          <img id="unsubscribeToolTipImage" src="http://i3.codeplex.com/Images/v16429/helpicon.gif" onmouseover="showUnsubscribeToolTip()" onmouseout="hideUnsubscribeToolTip()" />
+                        </label>
+                      </div>
+                      <div id="unsubscribeToolTip" style="display: none;">
+                        
+                      </div>
+                    </div>
+                </div>
+                <div class="ModalDialogContentButtons">
+                    <table id="NearlyUselessButtonHoldingTable">
+                        <tr>
+                            <td> 
+                                <input id="SaveButton" type="button" value="Save" class="DefaultButton" onclick="saveSubscriptionData();" />
+                            </td>
+                            <td>
+                                <a id="subscriptionDialogCancelButton" href="#" onclick="return closeSubscriptionDialog()">Cancel</a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div></div>
+
+<input type="hidden" name="SelectedSubscriptionItem" value="0" />
+
+</div>
+                                        
+	</div>
+                                    </td>
+	
+                                </tr>
+                            </table>
+                        
+</div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+                    </div>
+                </div>
+                <div id="UpdateProgressPanel" class="UpdateProgress">
+                    <span id="UpdateProgressText" class="UpdateProgressText">Updating...</span>
+                </div>
+                <div id="Analytics" style="width: 70%">
+                    <script type="text/javascript">
+    var CodePlex_SurveyProfile = new Object();
+    CodePlex_SurveyProfile.CookieDomain = '.codeplex.com';
+    CodePlex_SurveyProfile.Frequency = 0.008;
+	CodePlex_SurveyProfile.UseCookie = true;
+	CodePlex_SurveyProfile.Weight = 100;
+    CodePlex_SurveyProfile.PageUrl = '/site/library/svy/SiteRecruit_Tracker_p26386365.htm'
+</script>
+<script src="/site/library/svy/broker.js" type="text/javascript"></script>
+                    <img id="ctl00_ctl00_BlankImage" onload="self.logoImageLoaded=true" src="http://i3.codeplex.com/Images/v16429/blank.png" style="height:0px;width:0px;border-width:0px;" />
+                    <script language="javascript" type="text/javascript">
+                        var date = new Date();
+                        var timezoneOffset = date.getTimezoneOffset() / 60 * -1;
+                        var timezoneOffsetCookie = getCookie("TimezoneOffset");
+                        var firstTimeSetTimezoneCookie = false;
+
+                        if (timezoneOffsetCookie == null || timezoneOffsetCookie != timezoneOffset) {
+                            firstTimeSetTimezoneCookie = true;
+                            document.cookie = "TimezoneOffset=" + timezoneOffset + '; domain=.codeplex.com';
+                        }
+                    </script>
+                    
+                    
+                        <noscript><a href="http://www.omniture.com" title="Web Analytics">
+                            <img src="http://msstonojstemp.112.2O7.net/b/ss/msstonojstemp/1/H.20.2--NS/0" height="1" width="1" border="0" alt="" />
+                        </a></noscript>
+                    
+       
+                </div>
+            </td>
+        </tr>
+        <tr valign="bottom">
+            <td>
+                <div id="CanvasFooter">
+                    © 2006-2010 Microsoft
+                    <span class="VerticalBar">|</span>
+                    <a href='/site/help'>Get Help</a>
+                    <span class="VerticalBar">|</span>
+                    <a href='/legal/privacy.aspx'>Privacy Statement</a>
+                    <span class="VerticalBar">|</span>
+                    <a href='http://www.codeplex.com/Legal/Terms.aspx'>Terms of Use</a>
+                    <span class="VerticalBar">|</span>
+                    <a href='http://www.codeplex.com/Legal/Conduct.aspx'>Code of Conduct</a>
+                    <span class="VerticalBar">|</span>
+                    <a href="http://theloungenet.com/codeplex-advertising" target="_blank">Advertise With Us</a>
+                    <span class="VerticalBar">|</span>
+                    Version 2010.3.17.16429
+                </div>
+            </td>
+        </tr>
+    </table>
+     </form>
+</body>
+</html>

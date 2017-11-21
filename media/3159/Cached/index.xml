@@ -1,0 +1,37 @@
+<imageIndex>
+  <image>
+    <originalFileName>_dsc0398.jpg</originalFileName>
+    <size>160207</size>
+    <dateLastModified>2010-07-15 11:48:48</dateLastModified>
+    <cachedImage>
+      <fileName>xm6fcjv8.jpeg</fileName>
+      <dateCreated>2012-04-18 04:44:56</dateCreated>
+      <dateLastAccessed>2014-08-06 04:49:23</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>80</compression>
+      <width>520</width>
+      <height>345</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>True</constrain>
+      <pad>False</pad>
+    </cachedImage>
+    <cachedImage>
+      <fileName>fjbr6d20.jpeg</fileName>
+      <dateCreated>2012-04-20 05:22:47</dateCreated>
+      <dateLastAccessed>2014-06-05 11:20:38</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>80</compression>
+      <width>1000</width>
+      <height>664</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+    </cachedImage>
+  </image>
+</imageIndex>

@@ -1,0 +1,96 @@
+<imageIndex>
+  <image>
+    <imageText>Hello, world!</imageText>
+    <cachedImage>
+      <fileName>qpuliwyr.gif</fileName>
+      <dateCreated>2010-05-01 04:51:28</dateCreated>
+      <dateLastAccessed>2010-05-02 12:37:18</dateLastAccessed>
+      <imageFormat>gif</imageFormat>
+      <rotate>0</rotate>
+      <colorMode />
+      <crop />
+      <width>649</width>
+      <height>363</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>True</constrain>
+      <pad>False</pad>
+      <imageText>Hello, world!</imageText>
+      <antiAlias>True</antiAlias>
+      <fontName>Arial</fontName>
+      <fontSize>32</fontSize>
+      <fontStyle>Regular</fontStyle>
+      <fontColor>#000000</fontColor>
+      <align>left</align>
+      <valign>middle</valign>
+    </cachedImage>
+    <cachedImage>
+      <fileName>0is9z5wi.gif</fileName>
+      <dateCreated>2010-06-02 01:44:31</dateCreated>
+      <dateLastAccessed>2015-07-26 12:01:43</dateLastAccessed>
+      <imageFormat>gif</imageFormat>
+      <width>256</width>
+      <height>53</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+      <imageText>Hello, world!</imageText>
+      <antiAlias>True</antiAlias>
+      <fontName>Arial</fontName>
+      <fontSize>32</fontSize>
+      <fontStyle>Regular</fontStyle>
+      <fontColor>#000000</fontColor>
+      <align>left</align>
+      <valign>middle</valign>
+    </cachedImage>
+    <cachedImage>
+      <fileName>tumsu1lq.gif</fileName>
+      <dateCreated>2010-06-03 02:46:51</dateCreated>
+      <dateLastAccessed>2011-06-20 01:40:38</dateLastAccessed>
+      <imageFormat>gif</imageFormat>
+      <width>150</width>
+      <height>104</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>True</constrain>
+      <pad>False</pad>
+      <imageText>Hello, world!</imageText>
+      <antiAlias>True</antiAlias>
+      <fontName>Arial</fontName>
+      <fontSize>32</fontSize>
+      <fontStyle>Regular</fontStyle>
+      <fontColor>#000000</fontColor>
+      <align>left</align>
+      <valign>middle</valign>
+    </cachedImage>
+    <cachedImage>
+      <fileName>uxvfp7lw.gif</fileName>
+      <dateCreated>2010-06-07 11:33:12</dateCreated>
+      <dateLastAccessed>2015-06-16 02:26:00</dateLastAccessed>
+      <imageFormat>gif</imageFormat>
+      <width>520</width>
+      <height>53</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>True</constrain>
+      <pad>False</pad>
+      <imageText>Hello, world!</imageText>
+      <antiAlias>True</antiAlias>
+      <fontName>Arial</fontName>
+      <fontSize>32</fontSize>
+      <fontStyle>Regular</fontStyle>
+      <fontColor>#000000</fontColor>
+      <align>left</align>
+      <valign>middle</valign>
+    </cachedImage>
+  </image>
+</imageIndex>
